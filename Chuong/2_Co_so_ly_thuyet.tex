@@ -1,0 +1,729 @@
+\documentclass[../BTL_PTIT.tex]{subfiles}
+\begin{document}
+Chương này mô tả nội dung chính của đề tài theo đúng tiến trình triển khai một hệ thống nhúng hoàn chỉnh. Từ các yêu cầu đầu bài, nhóm có thể xác định bài toán thực tế, yêu cầu hệ thống, phần cứng cần dùng, chức năng phần mềm phải phát triển, cách tích hợp các khối chức năng và cách đánh giá kết quả cuối cùng. Với một đề tài mẫu như hệ thống giám sát và xử lý khí độc thông minh, cấu trúc chương này giúp người đọc theo dõi được toàn bộ vòng đời xây dựng hệ thống từ thiết kế đến kiểm thử.
+
+\section{Xác định bài toán và yêu cầu hệ thống}
+
+\subsection{Mô tả bài toán thực tế}
+Bối cảnh triển khai của hệ thống là các môi trường công nghiệp như xưởng sản xuất hóa chất, khu vực sơn phủ hoặc các phòng chứa dung môi, nơi rò rỉ khí độc như Ammonia, Benzene hoặc VOC có thể gây ngộ độc cấp tính và cháy nổ. Việc giám sát thủ công thường không bảo đảm độ phủ và tính liên tục, dẫn đến phản ứng chậm khi nồng độ khí vượt ngưỡng an toàn.
+
+Giải pháp được đề xuất là xây dựng một hệ thống giám sát và xử lý khí độc thông minh sử dụng vi điều khiển ESP32. Hệ thống không chỉ quan trắc nồng độ khí theo thời gian thực mà còn thực hiện tác vụ phản hồi bằng cách tự động kích hoạt quạt thông gió để lưu thông không khí khi phát hiện ô nhiễm. Dữ liệu được quản lý tập trung qua Cloud để phân tích xu hướng và phục vụ báo cáo an toàn lao động.
+
+\subsection{Yêu cầu chức năng}
+Hệ thống tập trung vào khả năng phát hiện khí độc và phản ứng nhanh.
+
+\subsubsection{Thu thập dữ liệu nồng độ khí}
+\begin{itemize}[label=\textbullet]
+    \item Phát hiện và đo lường nồng độ các loại khí độc hại như Amoniac, Sulfide, hơi Benzen và VOC bằng cảm biến chất lượng không khí MQ135.
+    \item Chuyển đổi tín hiệu analog sang giá trị nồng độ ppm để xử lý.
+\end{itemize}
+
+\subsubsection{Xử lý và điều khiển thiết bị (Actuation Control)}
+\begin{itemize}[label=\textbullet]
+    \item \textbf{Chế độ Tự động (AUTO):} Hệ thống tự động kích hoạt quạt thông gió và còi báo động ngay khi nồng độ khí đo được vượt ngưỡng cài đặt an toàn.
+    \item \textbf{Chế độ Thủ công (MANUAL):} Người quản lý có thể điều khiển cưỡng bức trạng thái quạt (Bật/Tắt) trực tiếp từ Dashboard thông qua giao thức MQTT.
+\end{itemize}
+
+\subsubsection{Truyền thông và giám sát}
+\begin{itemize}[label=\textbullet]
+    \item Gửi gói tin dữ liệu định dạng JSON lên HiveMQ Broker thông qua giao thức MQTT.
+    \item Hiển thị trạng thái quạt và biểu đồ nồng độ khí trên Web Dashboard thời gian thực.
+\end{itemize}
+
+\subsubsection{Quản trị nâng cao}
+\begin{itemize}[label=\textbullet]
+    \item \textbf{AI Summary:} Tự động tóm tắt mức độ ô nhiễm và đưa ra khuyến nghị an toàn mỗi giờ bằng mô hình GPT-4o-mini.
+    \item \textbf{Cập nhật OTA:} Hỗ trợ cập nhật firmware từ xa cho ESP32 để hiệu chỉnh cảm biến hoặc thay đổi logic điều khiển mà không cần can thiệp phần cứng.
+\end{itemize}
+
+\subsection{Yêu cầu phi chức năng}
+
+\subsubsection{Tính thời gian thực (Real-time)}
+\begin{itemize}[label=\textbullet]
+    \item Độ trễ dữ liệu từ cảm biến MQ135 đến Dashboard không quá 3 giây.
+    \item Thời gian phản hồi kích hoạt quạt khi phát hiện rò rỉ khí phải dưới 5 giây.
+\end{itemize}
+
+\subsubsection{Quản lý năng lượng (Power Management)}
+\begin{itemize}[label=\textbullet]
+    \item Sử dụng nguồn chính từ Adapter 5V-2A.
+    \item Tích hợp hệ thống pin dự phòng Lithium 18650 và mạch chuyển nguồn tự động YX850 (UPS) để duy trì hoạt động giám sát khi mất điện lưới.
+    \item Áp dụng chế độ Sleep Mode giữa các chu kỳ truyền tin để tối ưu điện năng khi chạy pin.
+\end{itemize}
+
+\subsubsection{Độ tin cậy và bảo mật}
+\begin{itemize}[label=\textbullet]
+    \item Đảm bảo tỷ lệ truyền gói tin thành công đạt ít nhất 98\% trong môi trường công nghiệp.
+    \item Xác thực thiết bị và người dùng qua mã thông báo JWT; mã hóa dữ liệu truyền tải qua TLS/SSL.
+\end{itemize}
+
+\subsubsection{Chi phí (Cost)}
+Tổng chi phí đầu tư phần cứng nếu triển khai thực tế với số lượng lớn, ví dụ 20 trạm cảm biến, phải dưới 250 triệu VNĐ.
+
+\subsection{Phân tích ràng buộc}
+
+\subsubsection{Tài nguyên thiết bị (Hardware Limits)}
+\begin{itemize}[label=\textbullet]
+    \item CPU/RAM: ESP32 có dung lượng SRAM giới hạn (520 KB), các tác vụ phân tích dữ liệu lớn hoặc AI phải được đẩy lên Cloud xử lý.
+    \item Lập trình đa nhiệm: Sử dụng FreeRTOS để phân chia các Task (Sensor Task, MQTT Task, Control Task) với mức ưu tiên khác nhau, tránh xung đột khi điều khiển quạt.
+\end{itemize}
+
+\subsubsection{Ràng buộc cảm biến}
+\begin{itemize}[label=\textbullet]
+    \item Cảm biến MQ135 cần thời gian sấy (Warm-up) để bộ phận nhiệt đạt đủ nhiệt độ đo chính xác, yêu cầu nguồn cấp ổn định 5V.
+\end{itemize}
+
+\subsubsection{Môi trường hoạt động}
+\begin{itemize}[label=\textbullet]
+    \item Thiết bị phải vận hành ổn định trong dải nhiệt độ công nghiệp từ 0°C đến 70°C.
+    \item Vỏ hộp thiết bị đạt tiêu chuẩn IP65 để bảo vệ mạch điện khỏi hơi dung môi và bụi bẩn trong nhà máy.
+\end{itemize}
+
+\section{Phần cứng của hệ thống}
+\subsection{Block diagram}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\linewidth]{Hinh_ve/block_diagram.png}
+\caption{Block diagram của hệ thống}
+\label{fig:block_diagram_he_thong}
+\end{figure}
+
+\subsection{Vi điều khiển ESP32}
+ESP32-WROOM-32D là một module Wi-Fi + Bluetooth tích hợp, phát triển bởi Espressif Systems, được sử dụng rộng rãi trong IoT (Internet of Things), tự động hóa và các thiết bị nhúng thông minh nhờ khả năng xử lý mạnh mẽ và kết nối không dây. Trên thực tế, người ta thường sử dụng bo mạch phát triển ESP32 DevKit V1 tích hợp sẵn module ESP32-WROOM-32D để dễ dàng lập trình và kết nối.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{Hinh_ve/esp32.png}
+\caption{Bo mạch ESP32 DevKit V1}
+\label{fig:esp32_devkit_v1}
+\end{figure}
+
+ESP32 được lựa chọn thay vì Arduino vì các lý do sau:
+\begin{itemize}[label=\textbullet]
+    \item Tích hợp sẵn WiFi, phù hợp hệ thống IoT sử dụng MQTT.
+    \item Hiệu năng cao, đáp ứng xử lý dữ liệu và truyền thông đồng thời.
+    \item Bộ nhớ lớn, hỗ trợ tốt các giao thức mạng.
+    \item Giảm độ phức tạp phần cứng (không cần module WiFi ngoài).
+    \item Dễ mở rộng và phát triển trong tương lai.
+\end{itemize}
+
+Trong khi đó, Arduino không phù hợp do:
+\begin{itemize}[label=\textbullet]
+    \item Không có WiFi tích hợp.
+    \item Hiệu năng thấp.
+    \item Hạn chế bộ nhớ.
+    \item Khó triển khai hệ thống IoT hoàn chỉnh.
+\end{itemize}
+
+Các thông số chính:
+\begin{itemize}[label=\textbullet]
+    \item CPU: Xtensa dual-core 32-bit LX6 (tốc độ tối đa 240 MHz).
+    \item Bộ nhớ: 448 KB ROM, 520 KB SRAM, 4 MB Flash (trên module).
+    \item Kết nối: Wi-Fi 802.11 b/g/n, Bluetooth v4.2 (Classic + BLE).
+    \item GPIO: 34 chân I/O, hỗ trợ PWM, ADC (12-bit), DAC (8-bit), SPI, I2C, UART.
+    \item Điện áp hoạt động: 3.0V-3.6V (DevKit hỗ trợ cấp từ 5V qua cổng USB).
+\end{itemize}
+
+Các linh kiện chính trên bo mạch ESP32 DevKit 32D:
+\begin{itemize}[label=\textbullet]
+    \item \textbf{Module ESP32-WROOM-32D:}
+    \begin{itemize}[label=--]
+        \item Thành phần trung tâm (SoC ESP32 + Flash 4 MB).
+        \item Chứa bộ xử lý, bộ nhớ, WiFi/Bluetooth và mạch RF.
+    \end{itemize}
+    \item \textbf{USB-to-UART Bridge (CP2102 hoặc CH340):}
+    \begin{itemize}[label=--]
+        \item Cho phép nạp chương trình và giao tiếp với máy tính thông qua cổng USB.
+        \item Chuyển đổi tín hiệu USB sang UART.
+    \end{itemize}
+    \item \textbf{Ổn áp AMS1117-3.3V:} Giúp chuyển đổi điện áp từ 5V (USB) hoặc Vin xuống 3.3V để nuôi ESP32.
+    \item \textbf{Cổng Micro-USB:} Dùng để cấp nguồn (5V) và nạp code.
+    \item \textbf{Nút nhấn:}
+    \begin{itemize}[label=--]
+        \item EN (Reset): Reset lại vi điều khiển.
+        \item BOOT (IO0): Giữ để đưa ESP32 vào chế độ nạp chương trình.
+    \end{itemize}
+    \item \textbf{Thạch anh (Crystal 40 MHz):} Tạo xung clock ổn định cho chip ESP32.
+    \item \textbf{LED chỉ thị (thường nối với GPIO2):} Báo hiệu nguồn hoặc được dùng test xuất tín hiệu.
+    \item \textbf{Hàng chân header (Male header pins):} Xuất các chân GPIO, nguồn (3.3V, 5V), GND để dễ dàng kết nối với breadboard hoặc module khác.
+    \item \textbf{Các tụ điện, điện trở dán (SMD):} Dùng để lọc nhiễu, ổn định nguồn, kéo lên hoặc kéo xuống cho các chân tín hiệu.
+\end{itemize}
+
+\subsection{MQ-135}
+MQ-135 là cảm biến khí bán dẫn sử dụng vật liệu thiếc dioxide. Nó được thiết kế đặc biệt để phát hiện nhiều loại khí độc hại và khí gây ô nhiễm môi trường. Do độ nhạy cao và giá thành rẻ, nó là lựa chọn hàng đầu cho các ứng dụng Air Quality Monitor (Giám sát chất lượng không khí) trong nhà và văn phòng.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.42\linewidth]{Hinh_ve/mq135_1.png}
+\caption{Cảm biến khí MQ-135}
+\label{fig:mq135_sensor}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.75\linewidth]{Hinh_ve/mq2.png}
+\caption{Sơ đồ chân và giao tiếp module cảm biến khí}
+\label{fig:mq_module_pinout}
+\end{figure}
+
+Các loại khí phát hiện (Detection Range):
+\begin{itemize}[label=\textbullet]
+    \item Amoniac: Rất nhạy.
+    \item Sulfide và hơi Benzen: Nhạy.
+    \item Hơi rượu (Alcohol), khói (Smoke): Nhạy trung bình.
+    \item Các oxit nitơ: Phát hiện được.
+    \item CO2: Có khả năng phát hiện nhưng không chuyên dụng (thường dùng để ước lượng mức độ ô nhiễm không khí nói chung).
+\end{itemize}
+
+Thông số kỹ thuật (Technical Specifications):
+\begin{itemize}[label=\textbullet]
+    \item Điện áp hoạt động (VCC): 5V DC $\pm$ 0.1V (lưu ý: ESP32 dùng logic 3.3V nhưng chân VCC của cảm biến phải nối 5V để bộ phận sấy hoạt động đủ nhiệt).
+    \item Điện áp mạch sấy (Heater Voltage): 5V DC/AC.
+    \item Công suất tiêu thụ: Khoảng 800mW (cảm biến sẽ khá nóng khi hoạt động, đây là bình thường).
+    \item Đầu ra dữ liệu:
+    \begin{itemize}[label=--]
+        \item Analog (A0): Điện áp biến thiên từ 0 - 5V (tương ứng với nồng độ khí).
+        \item Digital (D0): Tín hiệu 0 hoặc 1 (được so sánh qua Op-Amp LM393 tích hợp trên module, chỉnh ngưỡng bằng biến trở).
+    \end{itemize}
+    \item Phạm vi phát hiện: 10ppm - 1000ppm (tùy loại khí).
+\end{itemize}
+
+\subsection{Quạt tản nhiệt 5V mini 4x4}
+Quạt tản nhiệt nhỏ gọn, sử dụng nguồn 5V phù hợp cho hệ thống.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.45\linewidth]{Hinh_ve/quat_tan_nhiet.png}
+\caption{Quạt tản nhiệt mini 5V kích thước 4x4}
+\label{fig:quat_tan_nhiet_5v}
+\end{figure}
+
+\subsection{Module YX850 mạch tự động chuyển nguồn dự phòng 5-48VDC}
+YX850 là một mạch tự động chuyển nguồn dự phòng được sử dụng để chuyển giữa hai nguồn chính và phụ (thường là nguồn pin, ắc quy) tự động để cấp cho hệ thống khi nguồn chính không còn hoạt động. Mạch sử dụng điện áp 5-48VDC, thích hợp cho các ứng dụng cần nguồn pin dự phòng.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.55\linewidth]{Hinh_ve/yx850.png}
+\caption{Module YX850 thực tế}
+\label{fig:yx850_module_real}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\linewidth]{Hinh_ve/YX850_2.png}
+\caption{Nguyên lý chuyển nguồn chính và nguồn dự phòng của YX850}
+\label{fig:yx850_principle}
+\end{figure}
+
+Mạch được thiết kế nhỏ gọn với cách sử dụng đơn giản nhưng vẫn đạt năng suất hiệu quả. Có thể sử dụng để cấp nguồn dự phòng cho hệ thống camera giám sát, hệ thống cửa ra vào kiểm soát, hệ thống báo động, hệ thống báo trộm.
+
+Thông số kỹ thuật:
+\begin{itemize}[label=\textbullet]
+    \item Điện áp: 5-48VDC.
+    \item Khi có nguồn, nó được kết nối với pin để sạc.
+    \item Tải: 10A.
+    \item Kích thước sản phẩm: 61x30mm.
+\end{itemize}
+
+\subsection{Module hạ áp LM2596}
+LM2596 là IC ổn áp hạ áp (Buck Converter) dòng cao 3A phổ biến, chuyển đổi điện áp DC cao xuống mức thấp hơn (1.23V-30V) với hiệu suất lên tới 92\%. Nó có phiên bản cố định (3.3V, 5V, 12V) và điều chỉnh được (ADJ), thường dùng trong các module nguồn nhỏ gọn cho dự án robot, camera và IoT.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.55\linewidth]{Hinh_ve/LM2596S.png}
+\caption{Module hạ áp LM2596}
+\label{fig:lm2596_module}
+\end{figure}
+
+Vì nguồn dự phòng là pin 3,7V đấu nối tiếp và vì mạch cần 5V, nên cần module hạ áp để điện áp ở ngưỡng 5V cho hệ thống sử dụng ổn định.
+
+Thông số kỹ thuật chính của module LM2596:
+\begin{itemize}[label=\textbullet]
+    \item Điện áp đầu vào: 3V-30V/35V.
+    \item Điện áp đầu ra: Điều chỉnh được từ 1.5V-30V/35V (phiên bản ADJ).
+    \item Dòng điện đầu ra: 3A (liên tục), có thể cần tản nhiệt nếu dòng cao hơn 1A.
+    \item Hiệu suất: Lên tới 92\%.
+    \item Tần số chuyển mạch: 150kHz (cho phép dùng linh kiện lọc nhỏ gọn). [1, 2, 3, 4, 5, 6]
+\end{itemize}
+
+Các đặc điểm nổi bật:
+\begin{itemize}[label=\textbullet]
+    \item Thiết kế đơn giản: Sử dụng rất ít linh kiện ngoại vi.
+    \item Bảo vệ tích hợp: Có chức năng bảo vệ quá nhiệt và ngắn mạch.
+    \item Ứng dụng: Mạch sạc pin, cấp nguồn cho vi điều khiển, camera, motor, loa mini.
+\end{itemize}
+
+\subsection{Adapter 5V 2A}
+Chuyển đổi nguồn:
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{Hinh_ve/adapter_5v_2a.png}
+\caption{Adapter nguồn 5V 2A}
+\label{fig:adapter_5v_2a}
+\end{figure}
+
+\begin{itemize}[label=\textbullet]
+    \item Biến đổi AC 220V (điện lưới) sang DC 5V.
+    \item Đây là bộ nguồn AC-DC switching.
+\end{itemize}
+
+Cung cấp năng lượng ổn định:
+\begin{itemize}[label=\textbullet]
+    \item Cấp điện cho:
+    \begin{itemize}[label=--]
+        \item Vi điều khiển (ESP32, Arduino).
+        \item Sensor (MQ135).
+        \item Module (Relay, WiFi).
+    \end{itemize}
+\end{itemize}
+
+Thông số kỹ thuật quan trọng:
+
+Thông số đầu vào (Input):
+\begin{itemize}[label=\textbullet]
+    \item Điện áp: 100-240V AC.
+    \item Tần số: 50-60Hz.
+\end{itemize}
+
+Thông số đầu ra (Output):
+\begin{itemize}[label=\textbullet]
+    \item Điện áp: 5V DC.
+    \item Dòng tối đa: 2A.
+\end{itemize}
+
+\subsection{Nguồn dự phòng pin lithium 18650}
+Pin 18650 là loại pin sạc Lithium-ion (Li-ion) hình trụ, được sử dụng phổ biến trong các hệ thống nhúng và IoT.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{Hinh_ve/pin_lithium_18650.png}
+\caption{Pin lithium-ion 18650 dùng làm nguồn dự phòng}
+\label{fig:pin_18650}
+\end{figure}
+
+\begin{itemize}[label=\textbullet]
+    \item Ký hiệu 18650:
+    \begin{itemize}[label=--]
+        \item Đường kính: 18 mm.
+        \item Chiều dài: 65 mm.
+    \end{itemize}
+\end{itemize}
+
+Chức năng trong hệ thống:
+
+Trong hệ thống, pin 18650 đóng vai trò:
+\begin{itemize}[label=\textbullet]
+    \item Nguồn dự phòng (backup power) khi mất điện từ adapter.
+    \item Duy trì hoạt động cho:
+    \begin{itemize}[label=--]
+        \item ESP32.
+        \item Cảm biến MQ-135.
+        \item Relay và quạt.
+    \end{itemize}
+\end{itemize}
+
+Đảm bảo hệ thống giám sát không bị gián đoạn.
+
+Thông số kỹ thuật chính:
+\begin{itemize}[label=\textbullet]
+    \item Điện áp: 3.7V.
+    \item Dung lượng: xấp xỉ 1500 mAh (tùy loại thực tế).
+\end{itemize}
+
+\subsection{Sơ đồ tổng quan về thiết kế phần cứng}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.95\linewidth]{Hinh_ve/so_do_tong_quan.png}
+\caption{Sơ đồ tổng quan về thiết kế phần cứng}
+\label{fig:so_do_tong_quan_phan_cung}
+\end{figure}
+
+\section{Phần mềm của hệ thống}
+\subsection{Tổng quan chức năng phần mềm}
+Hệ thống phần mềm trên ESP32 thực hiện các chức năng:
+\begin{itemize}[label=\textbullet]
+    \item Đọc dữ liệu từ 2 cảm biến MQ-135 (2 phòng).
+    \item Xử lý và phân loại chất lượng không khí.
+    \item Gửi dữ liệu lên HiveMQ thông qua MQTT.
+    \item Nhận lệnh điều khiển từ server:
+    \begin{itemize}[label=--]
+        \item Chế độ Auto.
+        \item Chế độ Manual.
+    \end{itemize}
+    \item Điều khiển quạt tương ứng từng phòng.
+\end{itemize}
+
+
+
+\subsection{Thiết kế không sử dụng RTOS}
+\subsubsection{Phân chia Task (Logical Tasks)}
+Hệ thống được chia thành các tác vụ logic:
+
+\begin{table}[htbp]
+\centering
+\caption{Phân chia tác vụ logic khi không sử dụng RTOS}
+\label{tab:logical_tasks_no_rtos}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Task} & \textbf{Chức năng} \\
+\hline
+Sensor Task & Đọc dữ liệu 2 MQ-135 \\
+Processing Task & Xử lý, phân loại mức khí \\
+MQTT Task & Gửi dữ liệu lên broker \\
+Control Task & Điều khiển quạt \\
+Command Task & Nhận lệnh từ server \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsubsection{Scheduling (Lập lịch)}
+Sử dụng cooperative scheduling (vòng lặp loop) với millis():
+
+\begin{lstlisting}[language=C]
+void loop() {
+    readSensorTask();
+    processTask();
+    mqttPublishTask();
+    mqttReceiveTask();
+    controlTask();
+}
+\end{lstlisting}
+
+Cách triển khai:
+\begin{itemize}[label=\textbullet]
+    \item Mỗi task có timer riêng.
+    \item Không dùng delay().
+\end{itemize}
+
+Ví dụ:
+\begin{lstlisting}[language=C]
+if (millis() - lastRead >= 1000) {
+    readSensor();
+}
+\end{lstlisting}
+
+\subsubsection{FSM - Máy trạng thái hữu hạn}
+Mỗi phòng có FSM riêng.
+
+Trạng thái chính:
+\begin{itemize}[label=\textbullet]
+    \item MODE:
+    \begin{itemize}[label=--]
+        \item AUTO.
+        \item MANUAL.
+    \end{itemize}
+    \item FAN STATE:
+    \begin{itemize}[label=--]
+        \item OFF.
+        \item ON.
+    \end{itemize}
+\end{itemize}
+
+\subsubsection{Logic điều khiển}
+Nguyên tắc xử lý Auto và Manual:
+
+\begin{table}[htbp]
+\centering
+\caption{Nguyên tắc điều khiển Auto và Manual}
+\label{tab:auto_manual_logic_no_rtos}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Mode} & \textbf{Điều khiển} \\
+\hline
+AUTO & Hệ thống tự quyết theo ngưỡng \\
+MANUAL & Người dùng điều khiển hoàn toàn \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsubsection{Luồng xử lý lệnh từ server}
+\textbf{Bước 1:} Nhận lệnh setup.
+
+Ví dụ MQTT:
+\begin{lstlisting}[language={}]
+{
+  "room": 1,
+  "mode": "manual"
+}
+\end{lstlisting}
+
+ESP32:
+\begin{itemize}[label=\textbullet]
+    \item Cập nhật mode.
+    \item Reset trạng thái điều khiển.
+\end{itemize}
+
+\textbf{Bước 2:} Nếu là MANUAL thì nhận lệnh điều khiển.
+
+\begin{lstlisting}[language={}]
+{
+  "room": 1,
+  "fan": "on"
+}
+\end{lstlisting}
+
+\subsubsection{Pseudocode FSM}
+\begin{lstlisting}[language=C]
+if (room.mode == AUTO) {
+    if (airQuality > threshold) {
+        fan = ON;
+    } else {
+        fan = OFF;
+    }
+}
+
+if (room.mode == MANUAL) {
+    fan = userCommand;
+}
+\end{lstlisting}
+
+\subsubsection{Xử lý ngoại lệ}
+Vấn đề:
+\begin{itemize}[label=\textbullet]
+    \item Xung đột giữa Auto và Manual.
+\end{itemize}
+
+Giải pháp:
+\begin{itemize}[label=\textbullet]
+    \item Khi nhận lệnh chuyển mode:
+    \begin{itemize}[label=--]
+        \item Ưu tiên tuyệt đối MANUAL.
+        \item Auto bị disable hoàn toàn.
+    \end{itemize}
+\end{itemize}
+
+\begin{lstlisting}[language=C]
+if (modeChangedToManual) {
+    disableAutoControl();
+}
+\end{lstlisting}
+
+\subsection{Thiết kế có sử dụng RTOS (FreeRTOS trên ESP32)}
+\subsubsection{Phân chia Task (Real Tasks)}
+\begin{table}[htbp]
+\centering
+\caption{Phân chia tác vụ khi sử dụng RTOS}
+\label{tab:real_tasks_rtos}
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Task} & \textbf{Priority} & \textbf{Chức năng} \\
+\hline
+Sensor Task & Medium & Đọc cảm biến \\
+MQTT Task & High & Gửi và nhận MQTT \\
+Control Task & High & Điều khiển quạt \\
+Processing Task & Medium & Xử lý dữ liệu \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsubsection{Kiến trúc Task}
+Sensor Task $\rightarrow$ Queue $\rightarrow$ Processing Task $\rightarrow$ Queue $\rightarrow$ Control Task
+
+\hspace*{4em}$\downarrow$
+
+\hspace*{2em}MQTT Task
+
+\subsubsection{Quản lý tài nguyên}
+\paragraph{Queue (Hàng đợi)}
+\begin{itemize}[label=\textbullet]
+    \item Truyền dữ liệu giữa task.
+\end{itemize}
+
+\begin{lstlisting}[language=C]
+xQueueSend(sensorQueue, &data, portMAX_DELAY);
+xQueueReceive(sensorQueue, &data, portMAX_DELAY);
+\end{lstlisting}
+
+\paragraph{Mutex}
+\begin{itemize}[label=\textbullet]
+    \item Bảo vệ tài nguyên chung (MQTT client, biến trạng thái).
+\end{itemize}
+
+\begin{lstlisting}[language=C]
+xSemaphoreTake(mutex, portMAX_DELAY);
+xSemaphoreGive(mutex);
+\end{lstlisting}
+
+\paragraph{Event Group}
+\begin{itemize}[label=\textbullet]
+    \item Đồng bộ trạng thái (mode, command).
+\end{itemize}
+
+\subsubsection{FSM trong RTOS}
+FSM vẫn giữ nguyên logic nhưng chạy trong Control Task.
+
+\subsubsection{Xử lý MQTT}
+Khi nhận lệnh:
+\begin{lstlisting}[language=C]
+void mqttCallback(...) {
+    parseCommand();
+    xQueueSend(controlQueue, &cmd, 0);
+}
+\end{lstlisting}
+
+\subsubsection{Xử lý Auto và Manual (RTOS version)}
+Nguyên tắc:
+\begin{itemize}[label=\textbullet]
+    \item Mode được lưu trong biến toàn cục (protected by mutex).
+    \item Control Task đọc mode và quyết định hành vi.
+\end{itemize}
+
+\begin{lstlisting}[language=C]
+if (mode == AUTO) {
+    autoControl();
+} else {
+    manualControl();
+}
+\end{lstlisting}
+
+\subsubsection{Xử lý ngoại lệ (chuẩn RTOS)}
+Vấn đề:
+\begin{itemize}[label=\textbullet]
+    \item Race condition khi:
+    \begin{itemize}[label=--]
+        \item MQTT nhận lệnh.
+        \item Control Task đang xử lý.
+    \end{itemize}
+\end{itemize}
+
+Giải pháp:
+\begin{itemize}[label=\textbullet]
+    \item Dùng mutex và queue.
+    \item Không cho task truy cập trực tiếp biến.
+\end{itemize}
+
+\subsubsection{Ưu điểm RTOS}
+\begin{itemize}[label=\textbullet]
+    \item Task chạy song song.
+    \item Không block.
+    \item Dễ mở rộng nhiều phòng.
+\end{itemize}
+
+\subsection{Cơ chế điều khiển từ người dùng}
+Flow chuẩn:
+\begin{enumerate}[label=\arabic*.]
+    \item User chọn phòng.
+    \item Chọn:
+    \begin{itemize}[label=--]
+        \item Auto.
+        \item Manual.
+    \end{itemize}
+    \item Gửi MQTT:
+\begin{lstlisting}[language={}]
+{
+  "room": 2,
+  "mode": "manual"
+}
+\end{lstlisting}
+    \item ESP32 cập nhật mode.
+    \item Nếu manual thì nhận tiếp lệnh điều khiển.
+\end{enumerate}
+
+\section{Phương pháp thực hiện và kết quả}
+
+\subsection{Phương pháp thực hiện}
+
+Quá trình hiện thực hóa hệ thống được thực hiện qua các bước cụ thể sau:
+
+\subsubsection{Triển khai phần cứng}
+
+\begin{itemize}[label=\textbullet]
+    \item \textbf{Lắp ráp mạch nguồn:} Sử dụng Adapter 5V 2A làm nguồn chính, kết nối với mạch YX850 để quản lý nguồn dự phòng từ pin 18650. Sử dụng module hạ áp LM2596 để ổn định điện áp 5V cấp cho ESP32 và hệ thống cảm biến, quạt.
+    
+    \item \textbf{Kết nối cảm biến và cơ cấu chấp hành:} Đấu nối 02 cảm biến MQ-135 vào các chân ADC của ESP32 để giám sát hai khu vực (phòng) riêng biệt. Các quạt tản nhiệt được kết nối thông qua module Relay để thực hiện việc điều khiển bật/tắt.
+    
+    \item \textbf{Thi công mô hình:} Để đảm bảo tính linh hoạt trong quá trình phát triển và kiểm tra hệ thống giám sát không khí nhà máy, nhóm đã tiến hành lắp ráp mô hình theo dạng thực nghiệm (prototype) trên nền tảng breadboard và các module rời. Các bước thi công cụ thể như sau:
+    
+    \begin{enumerate}[label=\roman*.]
+        \item \textbf{Bố trí linh kiện tổng thể:}
+        \begin{itemize}[label=\textperiodcentered]
+            \item \textbf{Khối điều khiển trung tâm:} Vi điều khiển ESP32 và 02 cảm biến MQ-135 được cắm trực tiếp trên Breadboard (testboard) lớn. Cách bố trí này giúp thu gọn diện tích và dễ dàng thay đổi sơ đồ nối dây khi cần thiết.
+            
+            \item \textbf{Khối chấp hành:} Module Relay 2 kênh được đặt tách biệt, kết nối qua dây jumper để điều khiển 02 quạt tản nhiệt 5V (mô phỏng hệ thống thông gió tại 2 khu vực khác nhau trong nhà máy).
+            
+            \item \textbf{Khối quản lý năng lượng:} Các module nguồn được sắp xếp theo trình tự luồng điện để tối ưu hóa không gian, bao gồm: Jack DC input, mạch chuyển nguồn dự phòng YX850, mạch hạ áp LM2596 và khay pin Lithium 18650.
+        \end{itemize}
+        
+        \item \textbf{Quy trình kết nối và đi dây (Wiring):}
+        \begin{itemize}[label=\textperiodcentered]
+            \item \textbf{Kết nối cảm biến:} 02 cảm biến MQ-135 được cấp nguồn 5V và nối chân tín hiệu Analog vào các chân ADC của ESP32 thông qua các đường ray nguồn trên breadboard.
+            
+            \item \textbf{Kết nối điều khiển quạt:} Các chân GPIO điều khiển từ ESP32 được dẫn tới đầu vào (Input) của module Relay. Quạt được nối vào tiếp điểm của Relay, sử dụng nguồn 5V trực tiếp từ hệ thống nguồn chung.
+            
+            \item \textbf{Thiết lập hệ thống nguồn nối tầng:}
+            \begin{enumerate}[label=\arabic*.]
+                \item Nguồn từ Adapter (qua Jack DC) và nguồn từ Pin 18650 cùng đi vào mạch YX850 để thực hiện chức năng tự động chuyển đổi khi mất điện.
+                
+                \item Đầu ra của YX850 được nối tới mạch hạ áp LM2596 để điều chỉnh điện áp về mức 5V ổn định.
+                
+                \item Nguồn 5V sau hạ áp được dẫn tới breadboard để nuôi ESP32, các cảm biến và cấp điện cho Relay/Quạt.
+            \end{enumerate}
+        \end{itemize}
+        
+        \item \textbf{Hoàn thiện thực nghiệm:}
+        \begin{itemize}[label=\textperiodcentered]
+            \item Toàn bộ hệ thống dây dẫn được sử dụng là dây Jumper (Đực-Cái và Đực-Đực), các mối nối được kiểm tra kỹ lưỡng để đảm bảo độ tiếp xúc tốt và không gây sụt áp cho cảm biến.
+            
+            \item Các module được cố định tạm thời trên mặt phẳng thực nghiệm, đảm bảo khoảng cách an toàn giữa khối nguồn và khối điều khiển để tránh nhiễu điện từ.
+        \end{itemize}
+    \end{enumerate}
+\end{itemize}
+
+\subsubsection{Phát triển phần mềm}
+
+\begin{itemize}[label=\textbullet]
+    \item \textbf{Cấu hình môi trường:} Lập trình trên nền tảng Arduino IDE cho ESP32.
+    \item \textbf{Xây dựng logic điều khiển:}
+    \begin{itemize}[label=--]
+        \item Hiện thực hóa máy trạng thái hữu hạn (FSM) để quản lý các chế độ AUTO (tự động theo ngưỡng) và MANUAL (người dùng điều khiển).
+        \item Thiết lập kết nối WiFi và giao thức MQTT để truyền nhận dữ liệu với HiveMQ Broker.
+        \item (Nếu dùng RTOS): Phân chia các Task đọc cảm biến, xử lý dữ liệu và truyền thông MQTT với các mức ưu tiên khác nhau để đảm bảo tính thời gian thực.
+    \end{itemize}
+\end{itemize}
+
+\subsection{Kết quả đạt được}
+
+\subsubsection{Sản phẩm thực tế}
+
+\begin{itemize}[label=\textbullet]
+    \item Hệ thống đã được lắp ráp hoàn chỉnh thành một thiết bị giám sát IoT nhỏ gọn.
+\end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\linewidth]{Hinh_ve/hinh_san_pham.png}
+\caption{Hệ thống giám sát chất lượng không khí trong nhà máy}
+\label{fig:hinh_san_pham}
+\end{figure}
+
+\subsubsection{Giao diện giám sát và điều khiển}
+
+\begin{itemize}[label=\textbullet]
+    \item Dữ liệu về nồng độ khí (PPM) từ hai phòng được cập nhật liên tục lên Dashboard của Web/Mobile App dưới dạng biểu đồ và chỉ số trực quan.
+    
+    \item Người dùng có thể theo dõi trạng thái quạt và chuyển đổi chế độ hoạt động trực tiếp trên giao diện.
+\end{itemize}
+
+\subsubsection{Thử nghiệm khả năng vận hành}
+
+\begin{itemize}[label=\textbullet]
+    \item \textbf{Chế độ Auto:} Khi mô phỏng nồng độ khí cao (sử dụng bật lửa hoặc dung dịch cồn), cảm biến MQ-135 phản hồi nhanh chóng, ESP32 tự động kích hoạt quạt khi nồng độ vượt mức ngưỡng quy định.
+    
+    \item \textbf{Chế độ Manual:} Lệnh điều khiển từ App được thực thi với độ trễ thấp (thông thường $< 1$ giây), đồng thời có quyền ưu tiên cao nhất, ghi đè lên logic tự động.
+    
+    \item \textbf{Nguồn dự phòng:} Khi ngắt nguồn Adapter, mạch YX850 tự động chuyển sang dùng pin 18650, đảm bảo hệ thống giám sát không bị gián đoạn.
+\end{itemize}
+
+\subsection{Đánh giá và nhận xét}
+
+Dựa trên các tiêu chí tại, nhóm đưa ra các đánh giá sau:
+
+\begin{itemize}[label=\textbullet]
+    \item \textbf{Độ chính xác:} Cảm biến MQ-135 đáp ứng tốt việc phát hiện sự thay đổi chất lượng không khí trong bối cảnh nhà máy.
+    
+    \item \textbf{Tính thời gian thực:} Việc áp dụng cơ chế lập lịch (Scheduling) hoặc RTOS giúp hệ thống xử lý đồng thời việc đọc dữ liệu và phản hồi lệnh từ xa một cách mượt mà.
+    
+    \item \textbf{Tính ổn định:} Hệ thống hoạt động ổn định trong thời gian dài thử nghiệm, kết nối MQTT tin cậy nhờ khả năng xử lý của ESP32.
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,63 @@
+Ánh xạ heading theo số thứ tự gốc, không tự đổi cấp:
+
+4., 5. → section
+
+4.1, 4.2 → subsection
+
+4.1.1, 4.1.2 → subsubsection
+
+Xóa toàn bộ số thủ công trong tiêu đề, chỉ giữ phần chữ.
+
+Giữ nguyên cấu trúc phân tầng nội dung:
+
+Không gộp ý, không làm phẳng cây nội dung.
+
+Mục con kiểu a, b, c chỉ được nằm trong mục cha gốc của nó, không đẩy lên thành heading mới.
+
+Nếu gốc có 3 tầng lồng nhau thì bản LaTeX cũng phải giữ đúng 3 tầng.
+
+Quy tắc danh sách theo độ sâu tuyệt đối:
+
+Cấp 1: enumerate dùng 1,2,3; itemize dùng dấu chấm tròn.
+
+Cấp 2: enumerate dùng a,b,c; itemize dùng dấu gạch ngang.
+
+Cấp 3: enumerate dùng i,ii,iii; itemize dùng dấu chấm nhỏ.
+
+Cấp 4: enumerate dùng A,B,C; itemize dùng dấu sao.
+
+Khi chèn vào ngữ cảnh mới phải cộng dồn độ sâu:
+
+Ký hiệu không bám theo “hình thức nhìn thấy” của bản gốc.
+
+Ký hiệu phải bám theo độ sâu thực tế tại vị trí đang lồng trong tài liệu.
+
+Cấm dùng cùng kiểu chỉ mục ở hai cấp lồng nhau liền kề:
+
+Không để cặp a ở cấp trên rồi A ở cấp dưới nếu quy chuẩn đang yêu cầu tránh trùng họ ký hiệu.
+
+Mỗi cấp kề nhau phải khác kiểu rõ ràng.
+
+Giữ nguyên nội dung văn bản:
+
+Không tự ý diễn đạt lại, không lược bớt ý.
+
+Chỉ chuyển đổi cấu trúc và ký hiệu cho đúng chuẩn.
+
+Giữ định dạng tác giả:
+
+Chỗ nào gốc bôi đậm thì giữ in đậm.
+
+Không thêm preamble, không thêm wrapper documentclass hoặc begin-end document ngoài phạm vi được yêu cầu.
+
+Quy tắc hình ảnh:
+
+Đúng vị trí yêu cầu thì chèn figure với centering, caption theo ngữ cảnh, label rõ ràng.
+
+Không tự ý đổi vị trí logic của hình.
+
+Luôn kiểm tra biên dịch sau khi chỉnh:
+
+Build lại để xác nhận không lỗi.
+
+Nếu có cảnh báo template sẵn có thì tách bạch rõ với lỗi do phần vừa sửa.

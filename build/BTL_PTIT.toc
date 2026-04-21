@@ -1,0 +1,78 @@
+\babel@toc {nil}{}\relax 
+\ttl@change@i {\@ne }{chapter}{0.0cm}{\bfseries \vspace {0.3cm}}{{\bfseries {\scshape } CHƯƠNG \thecontentslabel .\ }}{}{\titlerule *[0.3pc]{.}\contentspage }\relax 
+\ttl@change@v {chapter}{}{}{}\relax 
+\ttl@change@i {\@ne }{section}{0.0cm}{\vspace {0.3cm}}{\thecontentslabel \ }{}{\titlerule *[0.3pc]{.}\contentspage }\relax 
+\ttl@change@v {section}{}{}{}\relax 
+\ttl@change@i {\@ne }{subsection}{1.0cm}{\vspace {0.3cm}}{\thecontentslabel \ }{}{\titlerule *[0.3pc]{.}\contentspage }\relax 
+\ttl@change@v {subsection}{}{}{}\relax 
+\thispagestyle {empty}
+\contentsline {chapter}{\numberline {1}GIỚI THIỆU ĐỀ TÀI}{4}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Giới thiệu đề tài}{4}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Lý do và động lực}{4}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Khảo sát công nghệ}{4}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Lựa chọn kỹ thuật}{4}{subsection.1.1.3}%
+\contentsline {chapter}{\numberline {2}NỘI DUNG CHÍNH CỦA ĐỀ TÀI}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Xác định bài toán và yêu cầu hệ thống}{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Mô tả bài toán thực tế}{5}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Yêu cầu chức năng}{5}{subsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {a}Thu thập dữ liệu nồng độ khí}{5}{subsubsection.2.1.2.1}%
+\contentsline {subsubsection}{\numberline {b}Xử lý và điều khiển thiết bị (Actuation Control)}{5}{subsubsection.2.1.2.2}%
+\contentsline {subsubsection}{\numberline {c}Truyền thông và giám sát}{5}{subsubsection.2.1.2.3}%
+\contentsline {subsubsection}{\numberline {d}Quản trị nâng cao}{5}{subsubsection.2.1.2.4}%
+\contentsline {subsection}{\numberline {2.1.3}Yêu cầu phi chức năng}{5}{subsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {a}Tính thời gian thực (Real-time)}{5}{subsubsection.2.1.3.1}%
+\contentsline {subsubsection}{\numberline {b}Quản lý năng lượng (Power Management)}{6}{subsubsection.2.1.3.2}%
+\contentsline {subsubsection}{\numberline {c}Độ tin cậy và bảo mật}{6}{subsubsection.2.1.3.3}%
+\contentsline {subsubsection}{\numberline {d}Chi phí (Cost)}{6}{subsubsection.2.1.3.4}%
+\contentsline {subsection}{\numberline {2.1.4}Phân tích ràng buộc}{6}{subsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {a}Tài nguyên thiết bị (Hardware Limits)}{6}{subsubsection.2.1.4.1}%
+\contentsline {subsubsection}{\numberline {b}Ràng buộc cảm biến}{6}{subsubsection.2.1.4.2}%
+\contentsline {subsubsection}{\numberline {c}Môi trường hoạt động}{6}{subsubsection.2.1.4.3}%
+\contentsline {section}{\numberline {2.2}Phần cứng của hệ thống}{6}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Block diagram}{6}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Vi điều khiển ESP32}{6}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}MQ-135}{8}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Quạt tản nhiệt 5V mini 4x4}{9}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Module YX850 mạch tự động chuyển nguồn dự phòng 5-48VDC}{9}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Module hạ áp LM2596}{11}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.7}Adapter 5V 2A}{12}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2.2.8}Nguồn dự phòng pin lithium 18650}{12}{subsection.2.2.8}%
+\contentsline {subsection}{\numberline {2.2.9}Sơ đồ tổng quan về thiết kế phần cứng}{13}{subsection.2.2.9}%
+\contentsline {section}{\numberline {2.3}Phần mềm của hệ thống}{13}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Tổng quan chức năng phần mềm}{13}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Thiết kế không sử dụng RTOS}{14}{subsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {a}Phân chia Task (Logical Tasks)}{14}{subsubsection.2.3.2.1}%
+\contentsline {subsubsection}{\numberline {b}Scheduling (Lập lịch)}{14}{subsubsection.2.3.2.2}%
+\contentsline {subsubsection}{\numberline {c}FSM - Máy trạng thái hữu hạn}{15}{subsubsection.2.3.2.3}%
+\contentsline {subsubsection}{\numberline {d}Logic điều khiển}{15}{subsubsection.2.3.2.4}%
+\contentsline {subsubsection}{\numberline {e}Luồng xử lý lệnh từ server}{15}{subsubsection.2.3.2.5}%
+\contentsline {subsubsection}{\numberline {f}Pseudocode FSM}{15}{subsubsection.2.3.2.6}%
+\contentsline {subsubsection}{\numberline {g}Xử lý ngoại lệ}{16}{subsubsection.2.3.2.7}%
+\contentsline {subsection}{\numberline {2.3.3}Thiết kế có sử dụng RTOS (FreeRTOS trên ESP32)}{16}{subsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {a}Phân chia Task (Real Tasks)}{16}{subsubsection.2.3.3.1}%
+\contentsline {subsubsection}{\numberline {b}Kiến trúc Task}{16}{subsubsection.2.3.3.2}%
+\contentsline {subsubsection}{\numberline {c}Quản lý tài nguyên}{16}{subsubsection.2.3.3.3}%
+\contentsline {paragraph}{Queue (Hàng đợi)}{16}{paragraph*.21}%
+\contentsline {paragraph}{Mutex}{16}{paragraph*.22}%
+\contentsline {paragraph}{Event Group}{16}{paragraph*.23}%
+\contentsline {subsubsection}{\numberline {d}FSM trong RTOS}{17}{subsubsection.2.3.3.4}%
+\contentsline {subsubsection}{\numberline {e}Xử lý MQTT}{17}{subsubsection.2.3.3.5}%
+\contentsline {subsubsection}{\numberline {f}Xử lý Auto và Manual (RTOS version)}{17}{subsubsection.2.3.3.6}%
+\contentsline {subsubsection}{\numberline {g}Xử lý ngoại lệ (chuẩn RTOS)}{17}{subsubsection.2.3.3.7}%
+\contentsline {subsubsection}{\numberline {h}Ưu điểm RTOS}{17}{subsubsection.2.3.3.8}%
+\contentsline {subsection}{\numberline {2.3.4}Cơ chế điều khiển từ người dùng}{17}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Phương pháp thực hiện và kết quả}{18}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Phương pháp thực hiện}{18}{subsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {a}Triển khai phần cứng}{18}{subsubsection.2.4.1.1}%
+\contentsline {subsubsection}{\numberline {b}Phát triển phần mềm}{19}{subsubsection.2.4.1.2}%
+\contentsline {subsection}{\numberline {2.4.2}Kết quả đạt được}{19}{subsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {a}Sản phẩm thực tế}{19}{subsubsection.2.4.2.1}%
+\contentsline {subsubsection}{\numberline {b}Giao diện giám sát và điều khiển}{19}{subsubsection.2.4.2.2}%
+\contentsline {subsubsection}{\numberline {c}Thử nghiệm khả năng vận hành}{19}{subsubsection.2.4.2.3}%
+\contentsline {subsection}{\numberline {2.4.3}Đánh giá và nhận xét}{19}{subsection.2.4.3}%
+\contentsline {chapter}{\numberline {3}KẾT LUẬN}{21}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Kết luận và hướng phát triển}{21}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Kết luận}{21}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Hướng phát triển}{21}{subsection.3.1.2}%
+\contentsline {chapter}{TÀI LIỆU THAM KHẢO}{22}{section*.26}%
+\contentsfinish 

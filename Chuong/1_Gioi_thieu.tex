@@ -1,0 +1,38 @@
+\documentclass[../BTL_PTIT.tex]{subfiles}
+\begin{document}
+
+\section{Giới thiệu đề tài}
+
+\subsection{Lý do và động lực}
+Trong môi trường công nghiệp, kiểm soát chất lượng không khí là yêu cầu tiên quyết để bảo vệ sức khỏe người lao động và đảm bảo an toàn vận hành. Các công đoạn sản xuất thường phát sinh các khí độc hại, khí dễ cháy như $NH_3$, $CO$, hoặc các hợp chất hữu cơ bay hơi (VOCs). Nếu không có hệ thống giám sát liên tục, các tác nhân này dễ dẫn đến nguy cơ ngộ độc hoặc cháy nổ nghiêm trọng.
+
+Hiện nay, các hệ thống công nghiệp (PLC/SCADA) thường rất đắt đỏ và khó triển khai cho các nhà máy quy mô vừa và nhỏ. Ngược lại, việc kiểm tra thủ công lại không đảm bảo tính tức thời. Nhận thấy tiềm năng của công nghệ IoT, nhóm quyết định thực hiện đề tài \textit{Hệ thống giám sát chất lượng không khí trong nhà máy} nhằm:
+
+\begin{itemize}[label=\textbullet]
+	\item Giám sát 24/7: Cập nhật nồng độ khí theo thời gian thực.
+	\item Phản ứng tức thời: Tự động kích hoạt hệ thống thông gió và phát cảnh báo khi vượt ngưỡng.
+	\item Số hóa quản lý: Giám sát từ xa qua Dashboard, lưu trữ dữ liệu trên Cloud và hướng tới phân tích thông minh bằng AI.
+\end{itemize}
+
+\subsection{Khảo sát công nghệ}
+Thị trường hiện có hai hướng tiếp cận chính:
+
+\begin{enumerate}[label=\arabic*.]
+	\item Hệ thống công nghiệp chuyên dụng: Sử dụng PLC kết hợp cảm biến độ chính xác cao. Ưu điểm là cực kỳ ổn định nhưng chi phí đầu tư và bảo trì rất lớn.
+	\item Hệ thống IoT mã nguồn mở: Sử dụng các dòng vi điều khiển mạnh mẽ như ESP32. Hướng đi này đang trở thành xu hướng nhờ chi phí thấp, tính linh hoạt cao và khả năng kết nối không dây mạnh mẽ.
+\end{enumerate}
+
+Trong bài tập lớn này, nhóm tập trung vào giải pháp IoT kết hợp Cloud. Việc đưa dữ liệu lên đám mây không chỉ giúp giám sát từ xa mà còn mở ra khả năng phân tích xu hướng môi trường, một yếu tố mà các hệ thống truyền thống tại chỗ thường thiếu sót.
+
+\subsection{Lựa chọn kỹ thuật}
+Hệ thống được thiết kế theo kiến trúc Edge-to-Cloud, tối ưu hóa hiệu suất giữa thiết bị biên và nền tảng điện toán đám mây:
+
+\begin{itemize}[label=\textbullet]
+	\item \textbf{Vi điều khiển:} Nhóm chọn ESP32 làm bộ não trung tâm. Với lợi thế xử lý đa nhiệm, tích hợp WiFi và hỗ trợ tốt các thư viện IoT, ESP32 giúp xử lý mượt mà đồng thời việc đọc cảm biến và truyền dữ liệu mạng.
+	\item \textbf{Cảm biến:} Sử dụng 02 cảm biến MQ-135 đặt tại các khu vực trọng yếu. Đây là giải pháp cân bằng giữa chi phí và hiệu quả trong việc phát hiện sự biến đổi nồng độ khí ô nhiễm.
+	\item \textbf{Giao tiếp:} Giao thức MQTT (qua HiveMQ Broker) được lựa chọn nhờ tính nhẹ, độ trễ thấp. Hệ thống vận hành song song hai chế độ: AUTO (Edge xử lý trực tiếp qua Relay) và MANUAL (người dùng can thiệp từ xa qua Dashboard).
+	\item \textbf{Quản lý thông minh:} Hệ thống hỗ trợ cập nhật firmware từ xa (OTA), cho phép nhóm hiệu chỉnh logic điều khiển mà không cần tháo lắp thiết bị.
+	\item \textbf{Độ tin cậy nguồn điện:} Điểm nhấn kỹ thuật của nhóm là mạch nguồn dự phòng dùng pin 18650 và module YX850, bảo đảm việc giám sát không bị gián đoạn ngay cả khi nhà máy xảy ra sự cố mất điện.
+\end{itemize}
+
+\end{document}
