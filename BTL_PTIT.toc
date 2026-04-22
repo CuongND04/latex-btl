@@ -35,56 +35,56 @@
 \contentsline {subsection}{\numberline {2.2.4}Quạt tản nhiệt 5V mini 4x4}{9}{subsection.2.2.4}%
 \contentsline {subsection}{\numberline {2.2.5}Module LCD I2C 16x2}{10}{subsection.2.2.5}%
 \contentsline {subsection}{\numberline {2.2.6}Module Relay 2 kênh 5V}{11}{subsection.2.2.6}%
-\contentsline {subsection}{\numberline {2.2.7}Module YX850 mạch tự động chuyển nguồn dự phòng 5-48VDC}{11}{subsection.2.2.7}%
-\contentsline {subsection}{\numberline {2.2.8}Module hạ áp LM2596}{12}{subsection.2.2.8}%
-\contentsline {subsection}{\numberline {2.2.9}Adapter 5V 2A}{13}{subsection.2.2.9}%
-\contentsline {subsection}{\numberline {2.2.10}Nguồn dự phòng pin lithium 18650}{14}{subsection.2.2.10}%
-\contentsline {subsection}{\numberline {2.2.11}Bảng cấu hình chân GPIO}{15}{subsection.2.2.11}%
-\contentsline {subsection}{\numberline {2.2.12}Sơ đồ tổng quan về thiết kế phần cứng}{16}{subsection.2.2.12}%
-\contentsline {section}{\numberline {2.3}Phần mềm của hệ thống}{16}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Tổng quan chức năng phần mềm}{16}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Phân ngưỡng chất lượng không khí (AQI Classification)}{17}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Bộ lọc EWMA (Exponential Weighted Moving Average) và Phát hiện lỗi cảm biến}{17}{subsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {a}Bộ lọc EWMA}{17}{subsubsection.2.3.3.1}%
-\contentsline {subsubsection}{\numberline {b}Phát hiện lỗi cảm biến}{18}{subsubsection.2.3.3.2}%
-\contentsline {subsection}{\numberline {2.3.4}Cơ chế chống nhiễu I2C khi Relay đóng/ngắt}{18}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Đồng bộ thời gian NTP}{19}{subsection.2.3.5}%
-\contentsline {subsection}{\numberline {2.3.6}Giao thức truyền tin MQTT}{19}{subsection.2.3.6}%
-\contentsline {subsubsection}{\numberline {a}Cấu hình Broker MQTT}{19}{subsubsection.2.3.6.1}%
-\contentsline {subsubsection}{\numberline {b}Bảo mật TLS}{19}{subsubsection.2.3.6.2}%
-\contentsline {subsubsection}{\numberline {c}Cấu trúc Topic MQTT}{20}{subsubsection.2.3.6.3}%
-\contentsline {subsubsection}{\numberline {d}Phân chia Task (Logical Tasks)}{20}{subsubsection.2.3.6.4}%
-\contentsline {subsubsection}{\numberline {e}Scheduling (Lập lịch)}{20}{subsubsection.2.3.6.5}%
-\contentsline {subsubsection}{\numberline {f}FSM - Máy trạng thái hữu hạn}{21}{subsubsection.2.3.6.6}%
-\contentsline {subsubsection}{\numberline {g}Logic điều khiển}{21}{subsubsection.2.3.6.7}%
-\contentsline {subsubsection}{\numberline {h}Luồng xử lý lệnh từ server}{21}{subsubsection.2.3.6.8}%
-\contentsline {subsubsection}{\numberline {i}Pseudocode FSM}{22}{subsubsection.2.3.6.9}%
-\contentsline {subsubsection}{\numberline {j}Xử lý ngoại lệ}{22}{subsubsection.2.3.6.10}%
-\contentsline {subsection}{\numberline {2.3.7}Thiết kế có sử dụng RTOS (FreeRTOS trên ESP32)}{22}{subsection.2.3.7}%
-\contentsline {subsubsection}{\numberline {a}Phân chia Task (Real Tasks)}{22}{subsubsection.2.3.7.1}%
-\contentsline {subsubsection}{\numberline {b}Kiến trúc Task}{23}{subsubsection.2.3.7.2}%
-\contentsline {subsubsection}{\numberline {c}Quản lý tài nguyên}{23}{subsubsection.2.3.7.3}%
-\contentsline {paragraph}{Queue (Hàng đợi)}{23}{paragraph*.24}%
-\contentsline {paragraph}{Mutex}{23}{paragraph*.25}%
-\contentsline {paragraph}{Event Group}{23}{paragraph*.26}%
-\contentsline {subsubsection}{\numberline {d}FSM trong RTOS}{23}{subsubsection.2.3.7.4}%
-\contentsline {subsubsection}{\numberline {e}Xử lý MQTT}{23}{subsubsection.2.3.7.5}%
-\contentsline {subsubsection}{\numberline {f}Xử lý Auto và Manual (RTOS version)}{23}{subsubsection.2.3.7.6}%
-\contentsline {subsubsection}{\numberline {g}Xử lý ngoại lệ (chuẩn RTOS)}{24}{subsubsection.2.3.7.7}%
-\contentsline {subsubsection}{\numberline {h}Ưu điểm RTOS}{24}{subsubsection.2.3.7.8}%
-\contentsline {subsection}{\numberline {2.3.8}Cơ chế điều khiển từ người dùng}{24}{subsection.2.3.8}%
-\contentsline {section}{\numberline {2.4}Phương pháp thực hiện và kết quả}{24}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Phương pháp thực hiện}{24}{subsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {a}Triển khai phần cứng}{24}{subsubsection.2.4.1.1}%
-\contentsline {subsubsection}{\numberline {b}Phát triển phần mềm}{25}{subsubsection.2.4.1.2}%
-\contentsline {subsection}{\numberline {2.4.2}Kết quả đạt được}{26}{subsection.2.4.2}%
-\contentsline {subsubsection}{\numberline {a}Sản phẩm thực tế}{26}{subsubsection.2.4.2.1}%
-\contentsline {subsubsection}{\numberline {b}Giao diện giám sát và điều khiển}{27}{subsubsection.2.4.2.2}%
-\contentsline {subsubsection}{\numberline {c}Thử nghiệm khả năng vận hành}{27}{subsubsection.2.4.2.3}%
-\contentsline {subsection}{\numberline {2.4.3}Đánh giá và nhận xét}{27}{subsection.2.4.3}%
-\contentsline {chapter}{\numberline {3}KẾT LUẬN}{29}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Kết luận và hướng phát triển}{29}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Kết luận}{29}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Hướng phát triển}{29}{subsection.3.1.2}%
-\contentsline {chapter}{TÀI LIỆU THAM KHẢO}{30}{section*.29}%
+\contentsline {subsection}{\numberline {2.2.7}Module YX850 mạch tự động chuyển nguồn dự phòng 5-48VDC}{12}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2.2.8}Module hạ áp LM2596}{13}{subsection.2.2.8}%
+\contentsline {subsection}{\numberline {2.2.9}Adapter 5V 2A}{14}{subsection.2.2.9}%
+\contentsline {subsection}{\numberline {2.2.10}Nguồn dự phòng pin lithium 18650}{15}{subsection.2.2.10}%
+\contentsline {subsection}{\numberline {2.2.11}Bảng cấu hình chân GPIO}{16}{subsection.2.2.11}%
+\contentsline {subsection}{\numberline {2.2.12}Sơ đồ tổng quan về thiết kế phần cứng}{17}{subsection.2.2.12}%
+\contentsline {section}{\numberline {2.3}Phần mềm của hệ thống}{17}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Tổng quan chức năng phần mềm}{17}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Phân ngưỡng chất lượng không khí (AQI Classification)}{18}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Bộ lọc EWMA (Exponential Weighted Moving Average) và Phát hiện lỗi cảm biến}{18}{subsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {a}Bộ lọc EWMA}{18}{subsubsection.2.3.3.1}%
+\contentsline {subsubsection}{\numberline {b}Phát hiện lỗi cảm biến}{19}{subsubsection.2.3.3.2}%
+\contentsline {subsection}{\numberline {2.3.4}Cơ chế chống nhiễu I2C khi Relay đóng/ngắt}{19}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Đồng bộ thời gian NTP}{20}{subsection.2.3.5}%
+\contentsline {subsection}{\numberline {2.3.6}Giao thức truyền tin MQTT}{20}{subsection.2.3.6}%
+\contentsline {subsubsection}{\numberline {a}Cấu hình Broker MQTT}{20}{subsubsection.2.3.6.1}%
+\contentsline {subsubsection}{\numberline {b}Bảo mật TLS}{20}{subsubsection.2.3.6.2}%
+\contentsline {subsubsection}{\numberline {c}Cấu trúc Topic MQTT}{21}{subsubsection.2.3.6.3}%
+\contentsline {subsubsection}{\numberline {d}Phân chia Task (Logical Tasks)}{21}{subsubsection.2.3.6.4}%
+\contentsline {subsubsection}{\numberline {e}Scheduling (Lập lịch)}{21}{subsubsection.2.3.6.5}%
+\contentsline {subsubsection}{\numberline {f}FSM - Máy trạng thái hữu hạn}{22}{subsubsection.2.3.6.6}%
+\contentsline {subsubsection}{\numberline {g}Logic điều khiển}{22}{subsubsection.2.3.6.7}%
+\contentsline {subsubsection}{\numberline {h}Luồng xử lý lệnh từ server}{22}{subsubsection.2.3.6.8}%
+\contentsline {subsubsection}{\numberline {i}Pseudocode FSM}{23}{subsubsection.2.3.6.9}%
+\contentsline {subsubsection}{\numberline {j}Xử lý ngoại lệ}{23}{subsubsection.2.3.6.10}%
+\contentsline {subsection}{\numberline {2.3.7}Thiết kế có sử dụng RTOS (FreeRTOS trên ESP32)}{23}{subsection.2.3.7}%
+\contentsline {subsubsection}{\numberline {a}Phân chia Task (Real Tasks)}{23}{subsubsection.2.3.7.1}%
+\contentsline {subsubsection}{\numberline {b}Kiến trúc Task}{24}{subsubsection.2.3.7.2}%
+\contentsline {subsubsection}{\numberline {c}Quản lý tài nguyên}{24}{subsubsection.2.3.7.3}%
+\contentsline {paragraph}{Queue (Hàng đợi)}{24}{paragraph*.27}%
+\contentsline {paragraph}{Mutex}{24}{paragraph*.28}%
+\contentsline {paragraph}{Event Group}{24}{paragraph*.29}%
+\contentsline {subsubsection}{\numberline {d}FSM trong RTOS}{24}{subsubsection.2.3.7.4}%
+\contentsline {subsubsection}{\numberline {e}Xử lý MQTT}{24}{subsubsection.2.3.7.5}%
+\contentsline {subsubsection}{\numberline {f}Xử lý Auto và Manual (RTOS version)}{24}{subsubsection.2.3.7.6}%
+\contentsline {subsubsection}{\numberline {g}Xử lý ngoại lệ (chuẩn RTOS)}{25}{subsubsection.2.3.7.7}%
+\contentsline {subsubsection}{\numberline {h}Ưu điểm RTOS}{25}{subsubsection.2.3.7.8}%
+\contentsline {subsection}{\numberline {2.3.8}Cơ chế điều khiển từ người dùng}{25}{subsection.2.3.8}%
+\contentsline {section}{\numberline {2.4}Phương pháp thực hiện và kết quả}{25}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Phương pháp thực hiện}{25}{subsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {a}Triển khai phần cứng}{25}{subsubsection.2.4.1.1}%
+\contentsline {subsubsection}{\numberline {b}Phát triển phần mềm}{26}{subsubsection.2.4.1.2}%
+\contentsline {subsection}{\numberline {2.4.2}Kết quả đạt được}{27}{subsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {a}Sản phẩm thực tế}{27}{subsubsection.2.4.2.1}%
+\contentsline {subsubsection}{\numberline {b}Giao diện giám sát và điều khiển}{28}{subsubsection.2.4.2.2}%
+\contentsline {subsubsection}{\numberline {c}Thử nghiệm khả năng vận hành}{28}{subsubsection.2.4.2.3}%
+\contentsline {subsection}{\numberline {2.4.3}Đánh giá và nhận xét}{28}{subsection.2.4.3}%
+\contentsline {chapter}{\numberline {3}KẾT LUẬN}{30}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Kết luận và hướng phát triển}{30}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Kết luận}{30}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Hướng phát triển}{30}{subsection.3.1.2}%
+\contentsline {chapter}{TÀI LIỆU THAM KHẢO}{31}{section*.32}%
 \contentsfinish 

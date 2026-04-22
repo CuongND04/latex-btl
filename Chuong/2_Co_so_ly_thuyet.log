@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.14)  22 APR 2026 11:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.14)  22 APR 2026 12:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1323,90 +1323,106 @@ LaTeX Font Info:    Trying to load font information for T5+pcr on input line 226
  (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5pcr.fd
 File: t5ucr.fd 2005/08/24 Fontinst v1.929 font definitions for T5/pcr.
 ) [6 <./Hinh_ve/quat_tan_nhiet.png>]
-Overfull \hbox (50.48868pt too wide) in paragraph at lines 262--263
+<Hinh_ve/lcd_i2c_16x2.png, id=184, 323.2878pt x 323.2878pt>
+File: Hinh_ve/lcd_i2c_16x2.png Graphic file (type png)
+<use Hinh_ve/lcd_i2c_16x2.png>
+Package pdftex.def Info: Hinh_ve/lcd_i2c_16x2.png  used on input line 238.
+(pdftex.def)             Requested size: 213.39568pt x 213.39526pt.
+<Hinh_ve/lcd_running.png, id=185, 293.4162pt x 220.1826pt>
+File: Hinh_ve/lcd_running.png Graphic file (type png)
+<use Hinh_ve/lcd_running.png>
+Package pdftex.def Info: Hinh_ve/lcd_running.png  used on input line 245.
+(pdftex.def)             Requested size: 256.07741pt x 192.16878pt.
+ [7 <./Hinh_ve/lcd_i2c_16x2.png> <./Hinh_ve/lcd_running.png>]
+Overfull \hbox (50.48868pt too wide) in paragraph at lines 276--277
 []\T5/ptm/m/n/10 Khði t¤o trong \T5/pcr/m/n/10 setup()\T5/ptm/m/n/10 : \T5/pcr/m/n/10 pinMode(12, OUTPUT); pinMode(13, OUTPUT); digitalWrite(12,
  []
 
-<Hinh_ve/yx850.png, id=184, 174.8934pt x 174.8934pt>
+<Hinh_ve/relay_2_kenh.png, id=195, 335.3328pt x 335.3328pt>
+File: Hinh_ve/relay_2_kenh.png Graphic file (type png)
+<use Hinh_ve/relay_2_kenh.png>
+Package pdftex.def Info: Hinh_ve/relay_2_kenh.png  used on input line 288.
+(pdftex.def)             Requested size: 234.73654pt x 234.73647pt.
+<Hinh_ve/yx850.png, id=196, 174.8934pt x 174.8934pt>
 File: Hinh_ve/yx850.png Graphic file (type png)
 <use Hinh_ve/yx850.png>
-Package pdftex.def Info: Hinh_ve/yx850.png  used on input line 277.
+Package pdftex.def Info: Hinh_ve/yx850.png  used on input line 298.
 (pdftex.def)             Requested size: 234.73654pt x 234.73755pt.
-[7]
-<Hinh_ve/YX850_2.png, id=190, 282.3348pt x 154.6578pt>
+[8 <./Hinh_ve/relay_2_kenh.png>]
+<Hinh_ve/YX850_2.png, id=203, 282.3348pt x 154.6578pt>
 File: Hinh_ve/YX850_2.png Graphic file (type png)
 <use Hinh_ve/YX850_2.png>
-Package pdftex.def Info: Hinh_ve/YX850_2.png  used on input line 284.
+Package pdftex.def Info: Hinh_ve/YX850_2.png  used on input line 305.
 (pdftex.def)             Requested size: 384.1096pt x 210.42384pt.
-<Hinh_ve/LM2596S.png, id=191, 185.0112pt x 185.0112pt>
+<Hinh_ve/LM2596S.png, id=204, 185.0112pt x 185.0112pt>
 File: Hinh_ve/LM2596S.png Graphic file (type png)
 <use Hinh_ve/LM2596S.png>
-Package pdftex.def Info: Hinh_ve/LM2596S.png  used on input line 304.
+Package pdftex.def Info: Hinh_ve/LM2596S.png  used on input line 325.
 (pdftex.def)             Requested size: 234.73654pt x 234.74988pt.
- [8 <./Hinh_ve/yx850.png> <./Hinh_ve/YX850_2.png>]
-<Hinh_ve/adapter_5v_2a.png, id=200, 206.6922pt x 206.6922pt>
+ [9 <./Hinh_ve/yx850.png> <./Hinh_ve/YX850_2.png>]
+<Hinh_ve/adapter_5v_2a.png, id=213, 206.6922pt x 206.6922pt>
 File: Hinh_ve/adapter_5v_2a.png Graphic file (type png)
 <use Hinh_ve/adapter_5v_2a.png>
-Package pdftex.def Info: Hinh_ve/adapter_5v_2a.png  used on input line 331.
+Package pdftex.def Info: Hinh_ve/adapter_5v_2a.png  used on input line 352.
 (pdftex.def)             Requested size: 213.39568pt x 213.39995pt.
- [9 <./Hinh_ve/LM2596S.png>]
-<Hinh_ve/pin_lithium_18650.png, id=207, 176.8206pt x 176.8206pt>
+ [10 <./Hinh_ve/LM2596S.png>]
+<Hinh_ve/pin_lithium_18650.png, id=220, 176.8206pt x 176.8206pt>
 File: Hinh_ve/pin_lithium_18650.png Graphic file (type png)
 <use Hinh_ve/pin_lithium_18650.png>
-Package pdftex.def Info: Hinh_ve/pin_lithium_18650.png  used on input line 370.
+Package pdftex.def Info: Hinh_ve/pin_lithium_18650.png  used on input line 391.
 (pdftex.def)             Requested size: 213.39568pt x 213.40315pt.
- [10 <./Hinh_ve/adapter_5v_2a.png>]
-Overfull \hbox (52.09868pt too wide) in paragraph at lines 411--433
+ [11 <./Hinh_ve/adapter_5v_2a.png>]
+Overfull \hbox (52.09868pt too wide) in paragraph at lines 432--454
  [][] 
  []
 
-<Hinh_ve/so_do_tong_quan.png, id=214, 469.755pt x 292.9344pt>
+<Hinh_ve/so_do_tong_quan.png, id=227, 469.755pt x 292.9344pt>
 File: Hinh_ve/so_do_tong_quan.png Graphic file (type png)
 <use Hinh_ve/so_do_tong_quan.png>
-Package pdftex.def Info: Hinh_ve/so_do_tong_quan.png  used on input line 438.
+Package pdftex.def Info: Hinh_ve/so_do_tong_quan.png  used on input line 459.
 (pdftex.def)             Requested size: 405.45047pt x 252.83498pt.
-[11 <./Hinh_ve/pin_lithium_18650.png>] [12 <./Hinh_ve/so_do_tong_quan.png>]
-Overfull \hbox (6.32814pt too wide) in paragraph at lines 473--474
+[12 <./Hinh_ve/pin_lithium_18650.png>] [13 <./Hinh_ve/so_do_tong_quan.png>]
+Overfull \hbox (6.32814pt too wide) in paragraph at lines 494--495
 []\T5/ptm/b/n/10 Cì ch¸ chèng nhi¹u I2C khi Relay ^^_âng/ng­t: \T5/ptm/m/n/10 Khi câ sü ki»n chuyºn tr¤ng th¡i qu¤t (relay ^^_âng/ng­t),
  []
 
-[13] [14]
-Overfull \hbox (9.7181pt too wide) in paragraph at lines 600--601
+[14] [15]
+Overfull \hbox (9.7181pt too wide) in paragraph at lines 621--622
 []\T5/ptm/b/n/10 Server: \T5/ptm/m/n/10 HiveMQ Cloud (\T5/pcr/m/n/10 21b69e31ed5e4e7c86dbc3dc79814eab.s1.eu.hivemq.cloud\T5/ptm/m/n/10 ). 
  []
 
-[15]
-Overfull \hbox (29.51868pt too wide) in paragraph at lines 622--635
+
+Overfull \hbox (29.51868pt too wide) in paragraph at lines 643--656
  [][] 
  []
 
-(C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+[16] (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-) [16] [17]
-Overfull \hbox (117.64864pt too wide) in paragraph at lines 823--836
+) [17] [18]
+Overfull \hbox (117.64864pt too wide) in paragraph at lines 844--857
  [][] 
  []
 
-[18]
-Overfull \hbox (33.8188pt too wide) in paragraph at lines 844--845
+
+Overfull \hbox (33.8188pt too wide) in paragraph at lines 865--866
 []\T5/ptm/b/n/10 Period: \T5/ptm/m/n/10 Chu ký thüc thi (ho°c t¦n sè loop trong váng l°p). C¡c task ^^_÷ñc khði t¤o b¬ng \T5/pcr/m/n/10 xTaskCreate(...)
  []
 
-[19] [20] [21]
-<Hinh_ve/hinh_san_pham.png, id=406, 452.892pt x 604.1772pt>
+[19] [20] [21] [22]
+<Hinh_ve/hinh_san_pham.png, id=419, 469.755pt x 626.34pt>
 File: Hinh_ve/hinh_san_pham.png Graphic file (type png)
 <use Hinh_ve/hinh_san_pham.png>
-Package pdftex.def Info: Hinh_ve/hinh_san_pham.png  used on input line 1054.
-(pdftex.def)             Requested size: 341.43437pt x 455.50107pt.
- [22] [23 <./Hinh_ve/hinh_san_pham.png>]
+Package pdftex.def Info: Hinh_ve/hinh_san_pham.png  used on input line 1075.
+(pdftex.def)             Requested size: 341.43437pt x 455.24605pt.
+ [23] [24 <./Hinh_ve/hinh_san_pham.png>]
 
 Package glossaries Warning: No \printnoidxglossary or \printnoidxglossaries
  found. (Remove \makenoidxglossaries if you don't want any glossaries.)
 This document will not have a glossary.
 
-[24] (c:\Users\OK\Downloads\HK2(25-26)\XayDungCacHeThongNhung\btl\Chuong\2_Co_so_ly_thuyet.aux)
+[25] (c:\Users\OK\Downloads\HK2(25-26)\XayDungCacHeThongNhung\btl\Chuong\2_Co_so_ly_thuyet.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1418,17 +1434,17 @@ Package logreq Info: Writing requests to '2_Co_so_ly_thuyet.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34477 strings out of 467871
- 644590 string characters out of 5419828
- 1515661 words of memory out of 5000000
- 62652 multiletter control sequences out of 15000+600000
- 650696 words of font info for 65 fonts, out of 8000000 for 9000
+ 34507 strings out of 467871
+ 645383 string characters out of 5419828
+ 1517030 words of memory out of 5000000
+ 62677 multiletter control sequences out of 15000+600000
+ 652088 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,12n,124p,2625b,2077s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/ucrr8v.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmb8v.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmr8v.pfb>
-Output written on c:\Users\OK\Downloads\HK2(25-26)\XayDungCacHeThongNhung\btl\Chuong\2_Co_so_ly_thuyet.pdf (24 pages, 4287268 bytes).
+Output written on c:\Users\OK\Downloads\HK2(25-26)\XayDungCacHeThongNhung\btl\Chuong\2_Co_so_ly_thuyet.pdf (25 pages, 5876498 bytes).
 PDF statistics:
- 521 PDF objects out of 1000 (max. 8388607)
- 217 named destinations out of 1000 (max. 500000)
- 309 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 535 PDF objects out of 1000 (max. 8388607)
+ 221 named destinations out of 1000 (max. 500000)
+ 324 words of extra memory for PDF output out of 10000 (max. 10000000)
 

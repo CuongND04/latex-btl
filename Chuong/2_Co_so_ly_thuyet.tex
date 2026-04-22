@@ -233,6 +233,20 @@ Hoạt động:
     \item Khi có sự kiện chuyển trạng thái quạt (relay đóng/ngắt), task LCD sẽ re-initialize I2C và LCD để chống lại nhiễu đường bus I2C gây bởi dòng cảm ứng ngược từ cuộn relay.
 \end{itemize}
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\linewidth]{Hinh_ve/lcd_i2c_16x2.png}
+\caption{Module LCD I2C 16×2 PCF8574}
+\label{fig:lcd_i2c_16x2_module}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.6\linewidth]{Hinh_ve/lcd_running.png}
+\caption{Màn hình LCD đang hoạt động hiển thị nồng độ khí và trạng thái quạt}
+\label{fig:lcd_running_display}
+\end{figure}
+
 \subsection{Module Relay 2 kênh 5V}
 Module Relay 2 kênh là thiết bị chuyển mạch điện tử dùng để điều khiển các tải điện (như quạt, mô-tơ, đèn) hoạt động ở mức công suất cao từ các tín hiệu điều khiển mức thấp (từ GPIO của ESP32).
 
@@ -268,6 +282,13 @@ Hoạt động:
     \item \texttt{digitalWrite(12, HIGH);} $\rightarrow$ Giải phóng Relay kênh 1 $\rightarrow$ Quạt 1 tắt.
     \item Tương tự cho kênh 2 với GPIO 13.
 \end{itemize}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.55\linewidth]{Hinh_ve/relay_2_kenh.png}
+\caption{Module Relay 2 kênh 5V với sơ đồ chân kết nối}
+\label{fig:relay_2_kenh_module}
+\end{figure}
 
 \subsection{Module YX850 mạch tự động chuyển nguồn dự phòng 5-48VDC}
 YX850 là một mạch tự động chuyển nguồn dự phòng được sử dụng để chuyển giữa hai nguồn chính và phụ (thường là nguồn pin, ắc quy) tự động để cấp cho hệ thống khi nguồn chính không còn hoạt động. Mạch sử dụng điện áp 5-48VDC, thích hợp cho các ứng dụng cần nguồn pin dự phòng.
