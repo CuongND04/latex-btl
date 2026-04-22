@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.14)  15 APR 2026 16:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.14)  22 APR 2026 11:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1192,7 +1192,7 @@ LaTeX Font Info:    ... okay on input line 159.
 * \oddsidemargin=27.31465pt
 * \evensidemargin=27.31465pt
 * \topmargin=-52.36449pt
-* \headheight=10.0pt
+* \headheight=15.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
@@ -1285,7 +1285,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
  (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Hinh_ve/ptit_logo_1.png, id=143, 356.0803pt x 441.90094pt>
+<Hinh_ve/ptit_logo_1.png, id=171, 356.0803pt x 441.90094pt>
 File: Hinh_ve/ptit_logo_1.png Graphic file (type png)
 <use Hinh_ve/ptit_logo_1.png>
 Package pdftex.def Info: Hinh_ve/ptit_logo_1.png  used on input line 14.
@@ -1296,7 +1296,7 @@ Package pdftex.def Info: Hinh_ve/ptit_logo_1.png  used on input line 14.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.73 ...numberline {3}K·∫æT LU·∫¨N}{23}{chapter.3}
+l.52 ...c truy·ªÅn tin MQTT}{19}{subsection.2.3.6}
                                                   % [1
 
 ])
@@ -1351,228 +1351,125 @@ Ch\uhorn \ohorn ng 2.
 (Chuong/2_Co_so_ly_thuyet.tex [5
 
 ]
-<Hinh_ve/block_diagram.png, id=300, 469.755pt x 202.8378pt>
+<Hinh_ve/block_diagram.png, id=348, 469.755pt x 202.8378pt>
 File: Hinh_ve/block_diagram.png Graphic file (type png)
 <use Hinh_ve/block_diagram.png>
 Package pdftex.def Info: Hinh_ve/block_diagram.png  used on input line 86.
 (pdftex.def)             Requested size: 405.45047pt x 175.07158pt.
-
-
-Package fancyhdr Warning: \headheight is too small (10.0pt): 
-(fancyhdr)                Make it at least 13.83003pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.83003pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.83003pt}.
-
-[6 <./Hinh_ve/block_diagram.png>]
-<Hinh_ve/esp32.png, id=312, 453.3738pt x 326.1786pt>
+ [6 <./Hinh_ve/block_diagram.png>]
+<Hinh_ve/esp32.png, id=360, 453.3738pt x 326.1786pt>
 File: Hinh_ve/esp32.png Graphic file (type png)
 <use Hinh_ve/esp32.png>
 Package pdftex.def Info: Hinh_ve/esp32.png  used on input line 96.
 (pdftex.def)             Requested size: 320.0935pt x 230.30434pt.
-
-
-Package fancyhdr Warning: \headheight is too small (10.0pt): 
-(fancyhdr)                Make it at least 13.83003pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.83003pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.83003pt}.
-
-[7 <./Hinh_ve/esp32.png>]
-<Hinh_ve/mq135_1.png, id=318, 152.2488pt x 128.1588pt>
+ [7 <./Hinh_ve/esp32.png>]
+<Hinh_ve/mq135_1.png, id=366, 152.2488pt x 128.1588pt>
 File: Hinh_ve/mq135_1.png Graphic file (type png)
 <use Hinh_ve/mq135_1.png>
 Package pdftex.def Info: Hinh_ve/mq135_1.png  used on input line 157.
 (pdftex.def)             Requested size: 179.25157pt x 150.90144pt.
-<Hinh_ve/mq2.png, id=319, 247.1634pt x 148.8762pt>
+<Hinh_ve/mq2.png, id=367, 247.1634pt x 148.8762pt>
 File: Hinh_ve/mq2.png Graphic file (type png)
 <use Hinh_ve/mq2.png>
 Package pdftex.def Info: Hinh_ve/mq2.png  used on input line 164.
 (pdftex.def)             Requested size: 320.0935pt x 192.80983pt.
-
-
-Package fancyhdr Warning: \headheight is too small (10.0pt): 
-(fancyhdr)                Make it at least 13.83003pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.83003pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.83003pt}.
-
-[8 <./Hinh_ve/mq135_1.png>]
-<Hinh_ve/quat_tan_nhiet.png, id=325, 244.7544pt x 244.7544pt>
+ [8 <./Hinh_ve/mq135_1.png>]
+<Hinh_ve/quat_tan_nhiet.png, id=373, 244.7544pt x 244.7544pt>
 File: Hinh_ve/quat_tan_nhiet.png Graphic file (type png)
 <use Hinh_ve/quat_tan_nhiet.png>
 Package pdftex.def Info: Hinh_ve/quat_tan_nhiet.png  used on input line 196.
 (pdftex.def)             Requested size: 192.0548pt x 192.05418pt.
+ [9 <./Hinh_ve/mq2.png>]
+LaTeX Font Info:    Trying to load font information for T5+pcr on input line 226.
+ (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5pcr.fd
+File: t5ucr.fd 2005/08/24 Fontinst v1.929 font definitions for T5/pcr.
+) [10 <./Hinh_ve/quat_tan_nhiet.png>]
+Overfull \hbox (50.48868pt too wide) in paragraph at lines 262--263
+[]\T5/ptm/m/n/10 Khi t§o trong \T5/pcr/m/n/10 setup()\T5/ptm/m/n/10 : \T5/pcr/m/n/10 pinMode(12, OUTPUT); pinMode(13, OUTPUT); digitalWrite(12,
+ []
 
-
-Package fancyhdr Warning: \headheight is too small (10.0pt): 
-(fancyhdr)                Make it at least 13.83003pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.83003pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.83003pt}.
-
-[9 <./Hinh_ve/mq2.png>]
-<Hinh_ve/yx850.png, id=333, 174.8934pt x 174.8934pt>
+<Hinh_ve/yx850.png, id=387, 174.8934pt x 174.8934pt>
 File: Hinh_ve/yx850.png Graphic file (type png)
 <use Hinh_ve/yx850.png>
-Package pdftex.def Info: Hinh_ve/yx850.png  used on input line 206.
+Package pdftex.def Info: Hinh_ve/yx850.png  used on input line 277.
 (pdftex.def)             Requested size: 234.73654pt x 234.73755pt.
-<Hinh_ve/YX850_2.png, id=334, 282.3348pt x 154.6578pt>
+[11]
+<Hinh_ve/YX850_2.png, id=392, 282.3348pt x 154.6578pt>
 File: Hinh_ve/YX850_2.png Graphic file (type png)
 <use Hinh_ve/YX850_2.png>
-Package pdftex.def Info: Hinh_ve/YX850_2.png  used on input line 213.
+Package pdftex.def Info: Hinh_ve/YX850_2.png  used on input line 284.
 (pdftex.def)             Requested size: 384.1096pt x 210.42384pt.
-
-
-Package fancyhdr Warning: \headheight is too small (10.0pt): 
-(fancyhdr)                Make it at least 13.83003pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.83003pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.83003pt}.
-
-[10 <./Hinh_ve/quat_tan_nhiet.png> <./Hinh_ve/yx850.png>]
-<Hinh_ve/LM2596S.png, id=341, 185.0112pt x 185.0112pt>
+<Hinh_ve/LM2596S.png, id=393, 185.0112pt x 185.0112pt>
 File: Hinh_ve/LM2596S.png Graphic file (type png)
 <use Hinh_ve/LM2596S.png>
-Package pdftex.def Info: Hinh_ve/LM2596S.png  used on input line 233.
+Package pdftex.def Info: Hinh_ve/LM2596S.png  used on input line 304.
 (pdftex.def)             Requested size: 234.73654pt x 234.74988pt.
-
-
-Package fancyhdr Warning: \headheight is too small (10.0pt): 
-(fancyhdr)                Make it at least 13.83003pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.83003pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.83003pt}.
-
-[11 <./Hinh_ve/YX850_2.png>]
-<Hinh_ve/adapter_5v_2a.png, id=347, 206.6922pt x 206.6922pt>
+ [12 <./Hinh_ve/yx850.png> <./Hinh_ve/YX850_2.png>]
+<Hinh_ve/adapter_5v_2a.png, id=400, 206.6922pt x 206.6922pt>
 File: Hinh_ve/adapter_5v_2a.png Graphic file (type png)
 <use Hinh_ve/adapter_5v_2a.png>
-Package pdftex.def Info: Hinh_ve/adapter_5v_2a.png  used on input line 260.
+Package pdftex.def Info: Hinh_ve/adapter_5v_2a.png  used on input line 331.
 (pdftex.def)             Requested size: 213.39568pt x 213.39995pt.
-
-
-Package fancyhdr Warning: \headheight is too small (10.0pt): 
-(fancyhdr)                Make it at least 13.83003pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.83003pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.83003pt}.
-
-[12 <./Hinh_ve/LM2596S.png>]
-<Hinh_ve/pin_lithium_18650.png, id=353, 176.8206pt x 176.8206pt>
+ [13 <./Hinh_ve/LM2596S.png>]
+<Hinh_ve/pin_lithium_18650.png, id=406, 176.8206pt x 176.8206pt>
 File: Hinh_ve/pin_lithium_18650.png Graphic file (type png)
 <use Hinh_ve/pin_lithium_18650.png>
-Package pdftex.def Info: Hinh_ve/pin_lithium_18650.png  used on input line 299.
+Package pdftex.def Info: Hinh_ve/pin_lithium_18650.png  used on input line 370.
 (pdftex.def)             Requested size: 213.39568pt x 213.40315pt.
+ [14 <./Hinh_ve/adapter_5v_2a.png>]
+Overfull \hbox (52.09868pt too wide) in paragraph at lines 411--433
+ [][] 
+ []
 
-
-Package fancyhdr Warning: \headheight is too small (10.0pt): 
-(fancyhdr)                Make it at least 13.83003pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.83003pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.83003pt}.
-
-[13 <./Hinh_ve/adapter_5v_2a.png>]
-<Hinh_ve/so_do_tong_quan.png, id=359, 469.755pt x 292.9344pt>
+<Hinh_ve/so_do_tong_quan.png, id=412, 469.755pt x 292.9344pt>
 File: Hinh_ve/so_do_tong_quan.png Graphic file (type png)
 <use Hinh_ve/so_do_tong_quan.png>
-Package pdftex.def Info: Hinh_ve/so_do_tong_quan.png  used on input line 336.
+Package pdftex.def Info: Hinh_ve/so_do_tong_quan.png  used on input line 438.
 (pdftex.def)             Requested size: 405.45047pt x 252.83498pt.
+[15 <./Hinh_ve/pin_lithium_18650.png>] [16 <./Hinh_ve/so_do_tong_quan.png>]
+Overfull \hbox (6.32814pt too wide) in paragraph at lines 473--474
+[]\T5/ptm/b/n/10 CÏ ch∏ chËng nhiπu I2C khi Relay ^^_‚ng/ng≠t: \T5/ptm/m/n/10 Khi c‚ s¸ kiªn chuy∫n tr§ng th°i qu§t (relay ^^_‚ng/ng≠t),
+ []
+
+[17] [18]
+Overfull \hbox (9.7181pt too wide) in paragraph at lines 600--601
+[]\T5/ptm/b/n/10 Server: \T5/ptm/m/n/10 HiveMQ Cloud (\T5/pcr/m/n/10 21b69e31ed5e4e7c86dbc3dc79814eab.s1.eu.hivemq.cloud\T5/ptm/m/n/10 ). 
+ []
 
 
-Package fancyhdr Warning: \headheight is too small (10.0pt): 
-(fancyhdr)                Make it at least 13.83003pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.83003pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.83003pt}.
+Overfull \hbox (29.51868pt too wide) in paragraph at lines 622--635
+ [][] 
+ []
 
-[14 <./Hinh_ve/pin_lithium_18650.png>] (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+[19] (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-)
+) [20] [21]
+Overfull \hbox (117.64864pt too wide) in paragraph at lines 823--836
+ [][] 
+ []
 
-Package fancyhdr Warning: \headheight is too small (10.0pt): 
-(fancyhdr)                Make it at least 13.83003pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.83003pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.83003pt}.
 
-[15 <./Hinh_ve/so_do_tong_quan.png>]
+Overfull \hbox (33.8188pt too wide) in paragraph at lines 844--845
+[]\T5/ptm/b/n/10 Period: \T5/ptm/m/n/10 Chu k˝ th¸c thi (ho∞c t¶n sË loop trong v·ng l∞p). C°c task ^^_˜Òc khi t§o b¨ng \T5/pcr/m/n/10 xTaskCreate(...)
+ []
 
-Package fancyhdr Warning: \headheight is too small (10.0pt): 
-(fancyhdr)                Make it at least 13.83003pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.83003pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.83003pt}.
-
-[16]
-
-Package fancyhdr Warning: \headheight is too small (10.0pt): 
-(fancyhdr)                Make it at least 13.83003pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.83003pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.83003pt}.
-
-[17]
-
-Package fancyhdr Warning: \headheight is too small (10.0pt): 
-(fancyhdr)                Make it at least 13.83003pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.83003pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.83003pt}.
-
-[18]
-
-Package fancyhdr Warning: \headheight is too small (10.0pt): 
-(fancyhdr)                Make it at least 13.83003pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.83003pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.83003pt}.
-
-[19]
-<Hinh_ve/hinh_san_pham.png, id=472, 452.892pt x 604.1772pt>
+[22] [23] [24] [25]
+<Hinh_ve/hinh_san_pham.png, id=594, 452.892pt x 604.1772pt>
 File: Hinh_ve/hinh_san_pham.png Graphic file (type png)
 <use Hinh_ve/hinh_san_pham.png>
-Package pdftex.def Info: Hinh_ve/hinh_san_pham.png  used on input line 694.
+Package pdftex.def Info: Hinh_ve/hinh_san_pham.png  used on input line 1054.
 (pdftex.def)             Requested size: 341.43437pt x 455.50107pt.
-
-
-Package fancyhdr Warning: \headheight is too small (10.0pt): 
-(fancyhdr)                Make it at least 13.83003pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.83003pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.83003pt}.
-
-[20]
-
-Package fancyhdr Warning: \headheight is too small (10.0pt): 
-(fancyhdr)                Make it at least 13.83003pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.83003pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.83003pt}.
-
-[21 <./Hinh_ve/hinh_san_pham.png>])
-
-Package fancyhdr Warning: \headheight is too small (10.0pt): 
-(fancyhdr)                Make it at least 13.83003pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.83003pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.83003pt}.
-
-[22]
+ [26] [27 <./Hinh_ve/hinh_san_pham.png>]) [28]
 Ch\uhorn \ohorn ng 3.
-(Chuong/6_Ket_luan.tex) [23
+(Chuong/6_Ket_luan.tex) [29
 
 ]
 
 Package biblatex Warning: Bibliography string 'url' untranslated
 (biblatex)                at entry 'rnt_esp32_pinout' on input line 264.
 
-LaTeX Font Info:    Trying to load font information for T5+pcr on input line 264.
-(C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5pcr.fd
-File: t5ucr.fd 2005/08/24 Fontinst v1.929 font definitions for T5/pcr.
-)
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 (biblatex)                The command should be defined in the .lbx file.
@@ -1592,7 +1489,7 @@ Package biblatex Warning: Bibliography string 'url' untranslated
 Package biblatex Warning: Bibliography string 'url' untranslated
 (biblatex)                at entry 'freertos_api' on input line 264.
 
-[24
+[30
 
 ] (BTL_PTIT.aux)
  ***********
@@ -1604,7 +1501,7 @@ L3 programming layer <2025-12-24>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `BTL_PTIT.out' has not changed.
-(rerunfilecheck)             Checksum: DAF3F1F95A0BE4A2166EC46EB1D61A6E;6912.
+(rerunfilecheck)             Checksum: 6511D676D6CE41869F574F7B0C84CB55;8833.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                BTL_PTIT
@@ -1615,17 +1512,17 @@ Package logreq Info: Writing requests to 'BTL_PTIT.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34835 strings out of 467871
- 651445 string characters out of 5419828
- 1512597 words of memory out of 5000000
- 62984 multiletter control sequences out of 15000+600000
- 661867 words of font info for 86 fonts, out of 8000000 for 9000
+ 34910 strings out of 467871
+ 652508 string characters out of 5419828
+ 1520552 words of memory out of 5000000
+ 63003 multiletter control sequences out of 15000+600000
+ 670209 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,12n,107p,2569b,2396s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/ucrr8v.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmb8v.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmr8v.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmri8v.pfb>
-Output written on BTL_PTIT.pdf (28 pages, 4379437 bytes).
+ 108i,12n,107p,2569b,2545s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/ucrr8v.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmb8v.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmr8v.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmri8v.pfb>
+Output written on BTL_PTIT.pdf (34 pages, 4446947 bytes).
 PDF statistics:
- 599 PDF objects out of 1000 (max. 8388607)
- 194 named destinations out of 1000 (max. 500000)
- 346 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 737 PDF objects out of 1000 (max. 8388607)
+ 248 named destinations out of 1000 (max. 500000)
+ 402 words of extra memory for PDF output out of 10000 (max. 10000000)
 
