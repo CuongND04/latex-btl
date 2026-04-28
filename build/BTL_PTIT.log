@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.14)  28 APR 2026 19:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.14)  28 APR 2026 20:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1727,14 +1727,14 @@ Overfull \hbox (33.8188pt too wide) in paragraph at lines 1019--1020
  []
 
 [27] [28] [29] [30]
-<Hinh_ve/hinh_san_pham.png, id=676, 469.755pt x 626.34pt>
+<Hinh_ve/hinh_san_pham.png, id=676, 1284.8pt x 963.6pt>
 File: Hinh_ve/hinh_san_pham.png Graphic file (type png)
 <use Hinh_ve/hinh_san_pham.png>
 Package pdftex.def Info: Hinh_ve/hinh_san_pham.png  used on input line 1229.
-(pdftex.def)             Requested size: 341.43437pt x 455.24605pt.
- [31] [32 <./Hinh_ve/hinh_san_pham.png>]) [33]
+(pdftex.def)             Requested size: 341.43437pt x 256.07324pt.
+ [31]) [32 <./Hinh_ve/hinh_san_pham.png (PNG copy)>]
 Ch\uhorn \ohorn ng 3.
-(Chuong/6_Ket_luan.tex) [34
+(Chuong/6_Ket_luan.tex) [33
 
 ]
 
@@ -1760,7 +1760,7 @@ Package biblatex Warning: Bibliography string 'url' untranslated
 Package biblatex Warning: Bibliography string 'url' untranslated
 (biblatex)                at entry 'freertos_api' on input line 295.
 
-[35
+[34
 
 ]
 (C:\Users\OK\Downloads\HK2(25-26)\XayDungCacHeThongNhung\btl\build\BTL_PTIT.aux
@@ -1785,9 +1785,9 @@ Package logreq Info: Writing requests to 'BTL_PTIT.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35027 strings out of 467871
- 655820 string characters out of 5419828
- 1523163 words of memory out of 5000000
+ 35026 strings out of 467871
+ 655813 string characters out of 5419828
+ 1522163 words of memory out of 5000000
  63081 multiletter control sequences out of 15000+600000
  671601 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1806,9 +1806,9 @@ pe1/urw/times/utmr8a.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1
 /vntex/urwvn/utmr8v.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/
 vntex/urwvn/utmri8v.pfb>
 Output written on C:\Users\OK\Downloads\HK2(25-26)\XayDungCacHeThongNhung\btl\b
-uild\BTL_PTIT.pdf (39 pages, 7169429 bytes).
+uild\BTL_PTIT.pdf (38 pages, 7076210 bytes).
 PDF statistics:
- 827 PDF objects out of 1000 (max. 8388607)
- 281 named destinations out of 1000 (max. 500000)
+ 822 PDF objects out of 1000 (max. 8388607)
+ 280 named destinations out of 1000 (max. 500000)
  456 words of extra memory for PDF output out of 10000 (max. 10000000)
 
