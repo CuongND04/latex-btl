@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex Chuong/2_Co_so_ly_thuyet"] 1776837278.44482 "Chuong/2_Co_so_ly_thuyet.aux" "Chuong/2_Co_so_ly_thuyet.bbl" "Chuong/2_Co_so_ly_thuyet" 1776837286.50472 0
+["bibtex Chuong/2_Co_so_ly_thuyet"] 1777380348.93934 "Chuong/2_Co_so_ly_thuyet.aux" "Chuong/2_Co_so_ly_thuyet.bbl" "Chuong/2_Co_so_ly_thuyet" 1777380764.96446 0
   "./Danh_sach_tai_lieu_tham_khao.bib" 1776180585 758 e17d75e4b575961a71e6ca5ead4e0afa ""
   "C:/Users/OK/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1752408733 65510 9a2a51799b543ff279b8ea2dd91ec499 ""
-  "Chuong/2_Co_so_ly_thuyet.aux" 1776837284 16674 c6d602835dc58386226ee0027e0228cd "pdflatex"
-  "c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/2_Co_so_ly_thuyet-blx.bib" 1776837284 343 eecd58be191eac03682f8fda492bb690 ""
+  "Chuong/2_Co_so_ly_thuyet.aux" 1777380763 19936 b55f3ff28d9e47aab346e2e316e93bba "pdflatex"
+  "c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/2_Co_so_ly_thuyet-blx.bib" 1777380763 343 eecd58be191eac03682f8fda492bb690 ""
   (generated)
   "Chuong/2_Co_so_ly_thuyet.bbl"
   "Chuong/2_Co_so_ly_thuyet.blg"
   (rewritten before read)
-["pdflatex"] 1776837278.90618 "c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/2_Co_so_ly_thuyet.tex" "Chuong/2_Co_so_ly_thuyet.pdf" "2_Co_so_ly_thuyet" 1776837286.50668 0
-  "BTL_PTIT.tex" 1776834198 8725 41991c9864111d920c3e8782f353958d ""
+["pdflatex"] 1777380759.62607 "c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/2_Co_so_ly_thuyet.tex" "Chuong/2_Co_so_ly_thuyet.pdf" "2_Co_so_ly_thuyet" 1777380764.96593 0
+  "BTL_PTIT.tex" 1777380293 10058 8d8d8f65f4cfb2e28083022b2342e3b6 ""
   "C:/Users/OK/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1776165969 89969 e95579120a3aa0ebc21d2737ca2ba701 ""
   "C:/Users/OK/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1776165102 13332035 1db0ed5fd9938f9df6b32ef4c8084d6f ""
   "C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -204,16 +204,18 @@
   "C:/Users/OK/AppData/Local/Programs/MiKTeX/tex/latex/xfor/xfor.sty" 1233849756 2689 44855b72da58344b1c1d9b3087bce6ca ""
   "C:/Users/OK/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/OK/AppData/Local/Programs/MiKTeX/tex/latex/xurl/xurl.sty" 1641733940 4675 e4b8c405820368c2dfb03526e16d725a ""
-  "Chuong/../BTL_PTIT.tex" 1776834198 8725 41991c9864111d920c3e8782f353958d ""
-  "Chuong/2_Co_so_ly_thuyet.aux" 1776837284 16674 c6d602835dc58386226ee0027e0228cd "pdflatex"
-  "Chuong/2_Co_so_ly_thuyet.bbl" 1776837278 540 47390d0fec917a8062f60a58a9b6d248 "bibtex Chuong/2_Co_so_ly_thuyet"
-  "Chuong/2_Co_so_ly_thuyet.out" 1776837284 7014 a495d294bd4ace6d2a01d9edc00c5416 "pdflatex"
-  "Chuong/2_Co_so_ly_thuyet.run.xml" 1776837284 2723 cdb053a05d9f72d2db6e93647d43a699 "pdflatex"
-  "Chuong/2_Co_so_ly_thuyet.tex" 1776837268 55866 bc1876d7d8a76705d61eb33a7a1d7009 ""
+  "Chuong/../BTL_PTIT.tex" 1777380293 10058 8d8d8f65f4cfb2e28083022b2342e3b6 ""
+  "Chuong/2_Co_so_ly_thuyet.aux" 1777380763 19936 b55f3ff28d9e47aab346e2e316e93bba "pdflatex"
+  "Chuong/2_Co_so_ly_thuyet.bbl" 1777380349 540 47390d0fec917a8062f60a58a9b6d248 "bibtex Chuong/2_Co_so_ly_thuyet"
+  "Chuong/2_Co_so_ly_thuyet.out" 1777380763 7490 871784aec2bf41dd84d55fb30bef3536 "pdflatex"
+  "Chuong/2_Co_so_ly_thuyet.run.xml" 1777380763 2723 cdb053a05d9f72d2db6e93647d43a699 "pdflatex"
+  "Chuong/2_Co_so_ly_thuyet.tex" 1777380758 64115 c0e7ace26300d13f68edefd92b4c370d ""
   "Hinh_ve/LM2596S.png" 1776172958 211876 847bac024c2ab2a5bf9d903f2cd3fcfc ""
   "Hinh_ve/YX850_2.png" 1776172155 219115 13bc70a2c32a0724594f79034c974f1e ""
   "Hinh_ve/adapter_5v_2a.png" 1776173012 259759 6b19a921090fd597ae478aae8fff803c ""
+  "Hinh_ve/ads1115_module.png" 1777379827 183618 66b2c75800e0ac1a8558ae67b8665b90 ""
   "Hinh_ve/block_diagram.png" 1776170793 49598 4c52aad4e6010a809f136cec683d4815 ""
+  "Hinh_ve/buzzer_sfm27.png" 1777379805 433284 13a343f996544a89ef5f056caf3c4d01 ""
   "Hinh_ve/esp32.png" 1776170814 640835 1e69500de44dcddbedc94ffa4313a419 ""
   "Hinh_ve/hinh_san_pham.png" 1776837056 1732914 c9b529a1b94d5effcccbe6b5a6eb0d55 ""
   "Hinh_ve/lcd_i2c_16x2.png" 1776836995 848064 df402df37f1d6e8b2f23105a94f36650 ""
@@ -223,10 +225,11 @@
   "Hinh_ve/pin_lithium_18650.png" 1776173054 109198 24ee28f1ad466d2df909e87752da76a1 ""
   "Hinh_ve/quat_tan_nhiet.png" 1776172074 220678 4aea5548773f9c5ae8e71403964b2584 ""
   "Hinh_ve/relay_2_kenh.png" 1776837037 502702 350595f0203dc9b3eed271020e444a8c ""
+  "Hinh_ve/servo_sg90.png" 1777379761 642075 ac2de181e6ca2dab28efc4b9c08ee313 ""
   "Hinh_ve/so_do_tong_quan.png" 1776173106 454411 38b306526aa37c820ac6f5155b1a5661 ""
   "Hinh_ve/yx850.png" 1776172135 196788 f9f2b2d06f3885cd541370ef71843091 ""
   "Tu_viet_tat.tex" 1776166697 831 0c2ce5cec073da2370c8307738d3562d ""
-  "c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/2_Co_so_ly_thuyet.tex" 1776837268 55866 bc1876d7d8a76705d61eb33a7a1d7009 ""
+  "c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/2_Co_so_ly_thuyet.tex" 1777380758 64115 c0e7ace26300d13f68edefd92b4c370d ""
   (generated)
   "Chuong/2_Co_so_ly_thuyet-blx.bib"
   "Chuong/2_Co_so_ly_thuyet.aux"

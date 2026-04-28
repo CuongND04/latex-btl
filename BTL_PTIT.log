@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.14)  22 APR 2026 12:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.14)  28 APR 2026 19:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -444,6 +444,9 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@inbox=\box60
 \enit@count@id=\count304
 \enitdp@description=\count305
+) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count306
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/subfiles\subfiles.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
  (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/import\import.sty
@@ -481,11 +484,11 @@ Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
 \AP@footins=\box63
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/algorithm2e\algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count306
+\c@AlgoLine=\count307
 \algocf@hangindent=\skip62
  (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count307
+\c@checkoddpage=\count308
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
@@ -521,9 +524,9 @@ Package: relsize 2013/03/29 ver 4.1
 \algoheightrule=\skip78
 \algotitleheightruledefault=\skip79
 \algotitleheightrule=\skip80
-\c@algocfline=\count308
-\c@algocfproc=\count309
-\c@algocf=\count310
+\c@algocfline=\count309
+\c@algocfproc=\count310
+\c@algocf=\count311
 \algocf@algoframe=\box70
 \algocf@algobox=\box71
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/capt-of\capt-of.sty
@@ -531,7 +534,7 @@ Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip81
-\multirow@cntb=\count311
+\multirow@cntb=\count312
 \multirow@dima=\skip82
 \bigstrutjot=\dimen190
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
@@ -565,30 +568,30 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen198
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count312
-\c@continuedfloat=\count313
+\c@caption@flags=\count313
+\c@continuedfloat=\count314
 Package caption Info: scrextend package is loaded.
 \caption@addmargin@hsize=\dimen199
 \caption@addmargin@linewidth=\dimen256
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count314
+\lst@mode=\count315
 \lst@gtempboxa=\box72
 \lst@token=\toks42
-\lst@length=\count315
+\lst@length=\count316
 \lst@currlwidth=\dimen257
-\lst@column=\count316
-\lst@pos=\count317
+\lst@column=\count317
+\lst@pos=\count318
 \lst@lostspace=\dimen258
 \lst@width=\dimen259
-\lst@newlines=\count318
-\lst@lineno=\count319
+\lst@newlines=\count319
+\lst@lineno=\count320
 \lst@maxwidth=\dimen260
  (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-\c@lstnumber=\count320
-\lst@skipnumbers=\count321
+\c@lstnumber=\count321
+\lst@skipnumbers=\count322
 \lst@framebox=\box73
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2025/11/14 1.11b listings configuration
@@ -603,7 +606,7 @@ Package: listings 2025/11/14 1.11b (Carsten Heinz)
     so I'm assuming it got fixed.
 (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count322
+\c@float@type=\count323
 \float@exts=\toks43
 \float@box=\box74
 \@float@everytoks=\toks44
@@ -611,9 +614,9 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count323
+\c@subfigure=\count324
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count324
+\c@subtable=\count325
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\glossaries.sty
 Package: glossaries 2026/03/06 v5.0 (NLCT)
  (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
@@ -622,14 +625,10 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks45
 \XKV@tempa@toks=\toks46
 )
-\XKV@depth=\count325
+\XKV@depth=\count326
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
 Package: mfirstuc 2025/04/03 v2.09 (NLCT)
- (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count326
-)
 \@glsmfirst=\toks47
 \@glsmrest=\toks48
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
@@ -1141,7 +1140,7 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 
 \@quotelevel=\count518
 \@quotereset=\count519
-LaTeX Font Info:    Trying to load font information for T5+ptm on input line 159.
+LaTeX Font Info:    Trying to load font information for T5+ptm on input line 190.
 (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5ptm.fd
 File: t5utm.fd 2005/08/24 Fontinst v1.929 font definitions for T5/ptm.
 )
@@ -1154,26 +1153,26 @@ LaTeX Warning: Unused global option(s):
 )
 \openout1 = `BTL_PTIT.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 190.
+LaTeX Font Info:    ... okay on input line 190.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1246,13 +1245,13 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count527
-Package tocbasic Info: setting babel extension for `lol' on input line 159.
+Package tocbasic Info: setting babel extension for `lol' on input line 190.
 Package biblatex Info: Trying to load language 'nil'...
 Package biblatex Info: ... file 'nil.lbx' not found.
 
 
 Package biblatex Warning: Language 'nil' not supported.
-(biblatex)                Using dummy definitions on input line 159.
+(biblatex)                Using dummy definitions on input line 190.
 
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -1265,9 +1264,9 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'BTL_PTIT.bbl' found.
 (BTL_PTIT.bbl)
-Package biblatex Info: Reference section=0 on input line 159.
-Package biblatex Info: Reference segment=0 on input line 159.
-Package hyperref Info: Link coloring OFF on input line 159.
+Package biblatex Info: Reference section=0 on input line 190.
+Package biblatex Info: Reference segment=0 on input line 190.
+Package hyperref Info: Link coloring OFF on input line 190.
  (BTL_PTIT.out) (BTL_PTIT.out)
 \@outlinefile=\write5
 \openout5 = `BTL_PTIT.out'.
@@ -1285,7 +1284,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
  (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Hinh_ve/ptit_logo_1.png, id=171, 356.0803pt x 441.90094pt>
+<Hinh_ve/ptit_logo_1.png, id=183, 356.0803pt x 441.90094pt>
 File: Hinh_ve/ptit_logo_1.png Graphic file (type png)
 <use Hinh_ve/ptit_logo_1.png>
 Package pdftex.def Info: Hinh_ve/ptit_logo_1.png  used on input line 14.
@@ -1296,7 +1295,7 @@ Package pdftex.def Info: Hinh_ve/ptit_logo_1.png  used on input line 14.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.52 ...c truy·ªÅn tin MQTT}{20}{subsection.2.3.6}
+l.65 ... l·ªói c·∫£m bi·∫øn}{22}{subsection.2.3.3}
                                                   % [1
 
 ])
@@ -1307,7 +1306,7 @@ l.52 ...c truy·ªÅn tin MQTT}{20}{subsection.2.3.6}
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.205 \cleardoublepage
+l.236 \cleardoublepage
                        [2] (BTL_PTIT.lof
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 9.
  (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
@@ -1320,7 +1319,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.214 \newpage
+l.245 \newpage
                [1
 
 
@@ -1331,7 +1330,7 @@ l.214 \newpage
 
 
 
-Package glossaries Warning: Empty glossary for \printnoidxglossary[type={main}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 229.
+Package glossaries Warning: Empty glossary for \printnoidxglossary[type={main}]. Rerun may be required (or you may have forgotten to use commands like \gls) on input line 260.
 
 
 Package glossaries Info: Preparing to sort glossary `acronym' (total number of
@@ -1351,30 +1350,30 @@ Ch\uhorn \ohorn ng 2.
 (Chuong/2_Co_so_ly_thuyet.tex [5
 
 ]
-<Hinh_ve/block_diagram.png, id=354, 469.755pt x 202.8378pt>
+<Hinh_ve/block_diagram.png, id=378, 469.755pt x 202.8378pt>
 File: Hinh_ve/block_diagram.png Graphic file (type png)
 <use Hinh_ve/block_diagram.png>
 Package pdftex.def Info: Hinh_ve/block_diagram.png  used on input line 86.
 (pdftex.def)             Requested size: 405.45047pt x 175.07158pt.
  [6 <./Hinh_ve/block_diagram.png>]
-<Hinh_ve/esp32.png, id=366, 453.3738pt x 326.1786pt>
+<Hinh_ve/esp32.png, id=390, 453.3738pt x 326.1786pt>
 File: Hinh_ve/esp32.png Graphic file (type png)
 <use Hinh_ve/esp32.png>
 Package pdftex.def Info: Hinh_ve/esp32.png  used on input line 96.
 (pdftex.def)             Requested size: 320.0935pt x 230.30434pt.
  [7 <./Hinh_ve/esp32.png>]
-<Hinh_ve/mq135_1.png, id=372, 152.2488pt x 128.1588pt>
+<Hinh_ve/mq135_1.png, id=396, 152.2488pt x 128.1588pt>
 File: Hinh_ve/mq135_1.png Graphic file (type png)
 <use Hinh_ve/mq135_1.png>
 Package pdftex.def Info: Hinh_ve/mq135_1.png  used on input line 157.
 (pdftex.def)             Requested size: 179.25157pt x 150.90144pt.
-<Hinh_ve/mq2.png, id=373, 247.1634pt x 148.8762pt>
+<Hinh_ve/mq2.png, id=397, 247.1634pt x 148.8762pt>
 File: Hinh_ve/mq2.png Graphic file (type png)
 <use Hinh_ve/mq2.png>
 Package pdftex.def Info: Hinh_ve/mq2.png  used on input line 164.
 (pdftex.def)             Requested size: 320.0935pt x 192.80983pt.
  [8 <./Hinh_ve/mq135_1.png>]
-<Hinh_ve/quat_tan_nhiet.png, id=379, 244.7544pt x 244.7544pt>
+<Hinh_ve/quat_tan_nhiet.png, id=403, 244.7544pt x 244.7544pt>
 File: Hinh_ve/quat_tan_nhiet.png Graphic file (type png)
 <use Hinh_ve/quat_tan_nhiet.png>
 Package pdftex.def Info: Hinh_ve/quat_tan_nhiet.png  used on input line 196.
@@ -1384,12 +1383,12 @@ LaTeX Font Info:    Trying to load font information for T5+pcr on input line 226
  (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5pcr.fd
 File: t5ucr.fd 2005/08/24 Fontinst v1.929 font definitions for T5/pcr.
 ) [10 <./Hinh_ve/quat_tan_nhiet.png>]
-<Hinh_ve/lcd_i2c_16x2.png, id=393, 323.2878pt x 323.2878pt>
+<Hinh_ve/lcd_i2c_16x2.png, id=417, 323.2878pt x 323.2878pt>
 File: Hinh_ve/lcd_i2c_16x2.png Graphic file (type png)
 <use Hinh_ve/lcd_i2c_16x2.png>
 Package pdftex.def Info: Hinh_ve/lcd_i2c_16x2.png  used on input line 238.
 (pdftex.def)             Requested size: 213.39568pt x 213.39526pt.
-<Hinh_ve/lcd_running.png, id=394, 293.4162pt x 220.1826pt>
+<Hinh_ve/lcd_running.png, id=418, 293.4162pt x 220.1826pt>
 File: Hinh_ve/lcd_running.png Graphic file (type png)
 <use Hinh_ve/lcd_running.png>
 Package pdftex.def Info: Hinh_ve/lcd_running.png  used on input line 245.
@@ -1399,92 +1398,139 @@ Overfull \hbox (50.48868pt too wide) in paragraph at lines 276--277
 []\T5/ptm/m/n/10 Khi t§o trong \T5/pcr/m/n/10 setup()\T5/ptm/m/n/10 : \T5/pcr/m/n/10 pinMode(12, OUTPUT); pinMode(13, OUTPUT); digitalWrite(12,
  []
 
-<Hinh_ve/relay_2_kenh.png, id=401, 335.3328pt x 335.3328pt>
+<Hinh_ve/relay_2_kenh.png, id=425, 335.3328pt x 335.3328pt>
 File: Hinh_ve/relay_2_kenh.png Graphic file (type png)
 <use Hinh_ve/relay_2_kenh.png>
 Package pdftex.def Info: Hinh_ve/relay_2_kenh.png  used on input line 288.
 (pdftex.def)             Requested size: 234.73654pt x 234.73647pt.
-<Hinh_ve/yx850.png, id=402, 174.8934pt x 174.8934pt>
+<Hinh_ve/servo_sg90.png, id=426, 469.755pt x 469.755pt>
+File: Hinh_ve/servo_sg90.png Graphic file (type png)
+<use Hinh_ve/servo_sg90.png>
+Package pdftex.def Info: Hinh_ve/servo_sg90.png  used on input line 300.
+(pdftex.def)             Requested size: 213.39568pt x 213.3948pt.
+[12 <./Hinh_ve/relay_2_kenh.png>] [13 <./Hinh_ve/servo_sg90.png>]
+<Hinh_ve/buzzer_sfm27.png, id=444, 409.53pt x 465.9006pt>
+File: Hinh_ve/buzzer_sfm27.png Graphic file (type png)
+<use Hinh_ve/buzzer_sfm27.png>
+Package pdftex.def Info: Hinh_ve/buzzer_sfm27.png  used on input line 357.
+(pdftex.def)             Requested size: 192.0548pt x 218.497pt.
+ [14 <./Hinh_ve/buzzer_sfm27.png>]
+<Hinh_ve/ads1115_module.png, id=452, 174.8934pt x 198.9834pt>
+File: Hinh_ve/ads1115_module.png Graphic file (type png)
+<use Hinh_ve/ads1115_module.png>
+Package pdftex.def Info: Hinh_ve/ads1115_module.png  used on input line 402.
+(pdftex.def)             Requested size: 192.0548pt x 218.50896pt.
+
+Overfull \hbox (11.95882pt too wide) in paragraph at lines 409--410
+[]\T5/ptm/b/n/10 Ch˘c n´ng: \T5/ptm/m/n/10 Chuy∫n ^^_Íi analog sang digital 16-bit; hÈ trÒ ^^_o ^^_Ïn (single-ended) ho∞c vi sai (differential). 
+ []
+
+[15 <./Hinh_ve/ads1115_module.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 426--427
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 427--428
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
+
+ []
+
+<Hinh_ve/yx850.png, id=464, 174.8934pt x 174.8934pt>
 File: Hinh_ve/yx850.png Graphic file (type png)
 <use Hinh_ve/yx850.png>
-Package pdftex.def Info: Hinh_ve/yx850.png  used on input line 298.
+Package pdftex.def Info: Hinh_ve/yx850.png  used on input line 452.
 (pdftex.def)             Requested size: 234.73654pt x 234.73755pt.
-[12 <./Hinh_ve/relay_2_kenh.png>]
-<Hinh_ve/YX850_2.png, id=408, 282.3348pt x 154.6578pt>
+[16]
+<Hinh_ve/YX850_2.png, id=476, 282.3348pt x 154.6578pt>
 File: Hinh_ve/YX850_2.png Graphic file (type png)
 <use Hinh_ve/YX850_2.png>
-Package pdftex.def Info: Hinh_ve/YX850_2.png  used on input line 305.
+Package pdftex.def Info: Hinh_ve/YX850_2.png  used on input line 459.
 (pdftex.def)             Requested size: 384.1096pt x 210.42384pt.
-<Hinh_ve/LM2596S.png, id=409, 185.0112pt x 185.0112pt>
+<Hinh_ve/LM2596S.png, id=477, 185.0112pt x 185.0112pt>
 File: Hinh_ve/LM2596S.png Graphic file (type png)
 <use Hinh_ve/LM2596S.png>
-Package pdftex.def Info: Hinh_ve/LM2596S.png  used on input line 325.
+Package pdftex.def Info: Hinh_ve/LM2596S.png  used on input line 479.
 (pdftex.def)             Requested size: 234.73654pt x 234.74988pt.
- [13 <./Hinh_ve/yx850.png> <./Hinh_ve/YX850_2.png>]
-<Hinh_ve/adapter_5v_2a.png, id=416, 206.6922pt x 206.6922pt>
+ [17 <./Hinh_ve/yx850.png> <./Hinh_ve/YX850_2.png>]
+<Hinh_ve/adapter_5v_2a.png, id=484, 206.6922pt x 206.6922pt>
 File: Hinh_ve/adapter_5v_2a.png Graphic file (type png)
 <use Hinh_ve/adapter_5v_2a.png>
-Package pdftex.def Info: Hinh_ve/adapter_5v_2a.png  used on input line 352.
+Package pdftex.def Info: Hinh_ve/adapter_5v_2a.png  used on input line 506.
 (pdftex.def)             Requested size: 213.39568pt x 213.39995pt.
- [14 <./Hinh_ve/LM2596S.png>]
-<Hinh_ve/pin_lithium_18650.png, id=422, 176.8206pt x 176.8206pt>
+ [18 <./Hinh_ve/LM2596S.png>]
+<Hinh_ve/pin_lithium_18650.png, id=490, 176.8206pt x 176.8206pt>
 File: Hinh_ve/pin_lithium_18650.png Graphic file (type png)
 <use Hinh_ve/pin_lithium_18650.png>
-Package pdftex.def Info: Hinh_ve/pin_lithium_18650.png  used on input line 391.
+Package pdftex.def Info: Hinh_ve/pin_lithium_18650.png  used on input line 545.
 (pdftex.def)             Requested size: 213.39568pt x 213.40315pt.
- [15 <./Hinh_ve/adapter_5v_2a.png>]
-Overfull \hbox (52.09868pt too wide) in paragraph at lines 432--454
+ [19 <./Hinh_ve/adapter_5v_2a.png>]
+Overfull \hbox (52.09868pt too wide) in paragraph at lines 586--608
  [][] 
  []
 
-<Hinh_ve/so_do_tong_quan.png, id=429, 469.755pt x 292.9344pt>
+<Hinh_ve/so_do_tong_quan.png, id=496, 469.755pt x 292.9344pt>
 File: Hinh_ve/so_do_tong_quan.png Graphic file (type png)
 <use Hinh_ve/so_do_tong_quan.png>
-Package pdftex.def Info: Hinh_ve/so_do_tong_quan.png  used on input line 459.
+Package pdftex.def Info: Hinh_ve/so_do_tong_quan.png  used on input line 613.
 (pdftex.def)             Requested size: 405.45047pt x 252.83498pt.
-[16 <./Hinh_ve/pin_lithium_18650.png>] [17 <./Hinh_ve/so_do_tong_quan.png>]
-Overfull \hbox (6.32814pt too wide) in paragraph at lines 494--495
+[20 <./Hinh_ve/pin_lithium_18650.png>] [21 <./Hinh_ve/so_do_tong_quan.png>]
+Overfull \hbox (6.32814pt too wide) in paragraph at lines 648--649
 []\T5/ptm/b/n/10 CÏ ch∏ chËng nhiπu I2C khi Relay ^^_‚ng/ng≠t: \T5/ptm/m/n/10 Khi c‚ s¸ kiªn chuy∫n tr§ng th°i qu§t (relay ^^_‚ng/ng≠t),
  []
 
-[18] [19]
-Overfull \hbox (9.7181pt too wide) in paragraph at lines 621--622
+[22] [23]
+Overfull \hbox (9.7181pt too wide) in paragraph at lines 775--776
 []\T5/ptm/b/n/10 Server: \T5/ptm/m/n/10 HiveMQ Cloud (\T5/pcr/m/n/10 21b69e31ed5e4e7c86dbc3dc79814eab.s1.eu.hivemq.cloud\T5/ptm/m/n/10 ). 
  []
 
 
-Overfull \hbox (29.51868pt too wide) in paragraph at lines 643--656
+Overfull \hbox (29.51868pt too wide) in paragraph at lines 797--810
  [][] 
  []
 
-[20] (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+[24] (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-) [21] [22]
-Overfull \hbox (117.64864pt too wide) in paragraph at lines 844--857
+) [25] [26]
+Overfull \hbox (117.64864pt too wide) in paragraph at lines 998--1011
  [][] 
  []
 
 
-Overfull \hbox (33.8188pt too wide) in paragraph at lines 865--866
+Overfull \hbox (33.8188pt too wide) in paragraph at lines 1019--1020
 []\T5/ptm/b/n/10 Period: \T5/ptm/m/n/10 Chu k˝ th¸c thi (ho∞c t¶n sË loop trong v·ng l∞p). C°c task ^^_˜Òc khi t§o b¨ng \T5/pcr/m/n/10 xTaskCreate(...)
  []
 
-[23] [24] [25] [26]
-<Hinh_ve/hinh_san_pham.png, id=610, 469.755pt x 626.34pt>
+[27] [28] [29] [30]
+<Hinh_ve/hinh_san_pham.png, id=676, 1284.8pt x 963.6pt>
 File: Hinh_ve/hinh_san_pham.png Graphic file (type png)
 <use Hinh_ve/hinh_san_pham.png>
-Package pdftex.def Info: Hinh_ve/hinh_san_pham.png  used on input line 1075.
-(pdftex.def)             Requested size: 341.43437pt x 455.24605pt.
- [27] [28 <./Hinh_ve/hinh_san_pham.png>]) [29]
+Package pdftex.def Info: Hinh_ve/hinh_san_pham.png  used on input line 1229.
+(pdftex.def)             Requested size: 341.43437pt x 256.07324pt.
+ [31]) [32 <./Hinh_ve/hinh_san_pham.png (PNG copy)>]
 Ch\uhorn \ohorn ng 3.
-(Chuong/6_Ket_luan.tex) [30
+(Chuong/6_Ket_luan.tex) [33
 
 ]
 
 Package biblatex Warning: Bibliography string 'url' untranslated
-(biblatex)                at entry 'rnt_esp32_pinout' on input line 264.
+(biblatex)                at entry 'rnt_esp32_pinout' on input line 295.
 
 
 Package biblatex Warning: Using fallback definition for \mkbibdatelong.
@@ -1495,17 +1541,17 @@ Package biblatex Warning: Using fallback definition for \mkbibdatelong.
 
 
 Package biblatex Warning: Bibliography string 'url' untranslated
-(biblatex)                at entry 'components101_mq135' on input line 264.
+(biblatex)                at entry 'components101_mq135' on input line 295.
 
 
 Package biblatex Warning: Bibliography string 'url' untranslated
-(biblatex)                at entry 'hivemq_mqtt' on input line 264.
+(biblatex)                at entry 'hivemq_mqtt' on input line 295.
 
 
 Package biblatex Warning: Bibliography string 'url' untranslated
-(biblatex)                at entry 'freertos_api' on input line 264.
+(biblatex)                at entry 'freertos_api' on input line 295.
 
-[31
+[34
 
 ] (BTL_PTIT.aux)
  ***********
@@ -1517,7 +1563,7 @@ L3 programming layer <2025-12-24>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `BTL_PTIT.out' has not changed.
-(rerunfilecheck)             Checksum: E751C91616DA7A7CB34777D0266E162C;8833.
+(rerunfilecheck)             Checksum: EEE50D1C736B907F487F8B142636891C;9309.
 
 Package biblatex Warning: Please (re)run BibTeX on the file(s):
 (biblatex)                BTL_PTIT
@@ -1528,17 +1574,17 @@ Package logreq Info: Writing requests to 'BTL_PTIT.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34943 strings out of 467871
- 653336 string characters out of 5419828
- 1520998 words of memory out of 5000000
- 63028 multiletter control sequences out of 15000+600000
+ 35027 strings out of 467871
+ 655219 string characters out of 5419828
+ 1523163 words of memory out of 5000000
+ 63081 multiletter control sequences out of 15000+600000
  671601 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,12n,107p,2569b,2544s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,12n,107p,2569b,2669s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/ucrr8v.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmb8v.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmr8v.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmri8v.pfb>
-Output written on BTL_PTIT.pdf (35 pages, 6036822 bytes).
+Output written on BTL_PTIT.pdf (38 pages, 7076035 bytes).
 PDF statistics:
- 753 PDF objects out of 1000 (max. 8388607)
- 252 named destinations out of 1000 (max. 500000)
- 417 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 822 PDF objects out of 1000 (max. 8388607)
+ 280 named destinations out of 1000 (max. 500000)
+ 456 words of extra memory for PDF output out of 10000 (max. 10000000)
 

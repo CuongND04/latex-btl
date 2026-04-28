@@ -19,6 +19,37 @@
 \usepackage{times} % Chọn font Time New Romans
 \usepackage{array} % Tạo bảng array
 \usepackage{enumitem} % Cho phép thay đổi kí hiệu của list
+% Quy định kiểu danh sách theo độ sâu (theo format_latex.txt)
+% Cấp 1: itemize = bullet, enumerate = 1.
+% Cấp 2: itemize = dash, enumerate = a.
+% Cấp 3: itemize = small dot, enumerate = i.
+% Cấp 4: itemize = star, enumerate = A.
+\setlist[itemize,1]{label=\textbullet}
+\setlist[itemize,2]{label=--}
+\setlist[itemize,3]{label=\textperiodcentered}
+\setlist[itemize,4]{label=*}
+\setlist[enumerate,1]{label=\arabic*.}
+\setlist[enumerate,2]{label=\alph*.}
+\setlist[enumerate,3]{label=\roman*.}
+\setlist[enumerate,4]{label=\Alph*.}
+% Force correct label by actual nesting depth (override any explicit optional label)
+\usepackage{etoolbox}
+\makeatletter
+\newcommand{\fixItemLabel}{%
+    \ifnum\@listdepth=1 \setlist[itemize]{label=\textbullet}\fi%
+    \ifnum\@listdepth=2 \setlist[itemize]{label=--}\fi%
+    \ifnum\@listdepth=3 \setlist[itemize]{label=\textperiodcentered}\fi%
+    \ifnum\@listdepth=4 \setlist[itemize]{label=*}\fi%
+}
+\newcommand{\fixEnumLabel}{%
+    \ifnum\@listdepth=1 \setlist[enumerate]{label=\arabic*.}\fi%
+    \ifnum\@listdepth=2 \setlist[enumerate]{label=\alph*.}\fi%
+    \ifnum\@listdepth=3 \setlist[enumerate]{label=\roman*.}\fi%
+    \ifnum\@listdepth=4 \setlist[enumerate]{label=\Alph*.}\fi%
+}
+\AtBeginEnvironment{itemize}{\fixItemLabel}
+\AtBeginEnvironment{enumerate}{\fixEnumLabel}
+\makeatother
 \usepackage{subfiles} % Chèn các file nhỏ, giúp chia các chapter ra nhiều file hơn
 \usepackage{titlesec} % Giúp chỉnh sửa các tiêu đề, đề mục như chương, phần,..
 \usepackage{titletoc}
