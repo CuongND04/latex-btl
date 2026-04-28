@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex Chuong/1_Gioi_thieu"] 1776178510.38713 "Chuong/1_Gioi_thieu.aux" "Chuong/1_Gioi_thieu.bbl" "Chuong/1_Gioi_thieu" 1776178513.69836 0
-  "./Danh_sach_tai_lieu_tham_khao.bib" 1776139196 2249 b5d6eb1b2e5a36ef4f8d4d84a28affad ""
+["bibtex Chuong/1_Gioi_thieu"] 1777395379.30348 "Chuong/1_Gioi_thieu.aux" "Chuong/1_Gioi_thieu.bbl" "Chuong/1_Gioi_thieu" 1777395385.51358 0
+  "./Danh_sach_tai_lieu_tham_khao.bib" 1776180585 758 e17d75e4b575961a71e6ca5ead4e0afa ""
   "C:/Users/OK/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1752408733 65510 9a2a51799b543ff279b8ea2dd91ec499 ""
-  "Chuong/1_Gioi_thieu.aux" 1776178512 1260 407465a34175682ffd795bacaa56ca96 "pdflatex"
-  "c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/1_Gioi_thieu-blx.bib" 1776178512 343 eecd58be191eac03682f8fda492bb690 ""
+  "Chuong/1_Gioi_thieu.aux" 1777395383 1260 407465a34175682ffd795bacaa56ca96 "pdflatex"
+  "c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/1_Gioi_thieu-blx.bib" 1777395383 343 eecd58be191eac03682f8fda492bb690 ""
   (generated)
   "Chuong/1_Gioi_thieu.bbl"
   "Chuong/1_Gioi_thieu.blg"
   (rewritten before read)
-["pdflatex"] 1776178510.69235 "c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/1_Gioi_thieu.tex" "Chuong/1_Gioi_thieu.pdf" "1_Gioi_thieu" 1776178513.70074 0
-  "BTL_PTIT.tex" 1776178410 8926 ac6c86a23c588e1a254f4f32d21fb0d9 ""
+["pdflatex"] 1777395379.79237 "c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/1_Gioi_thieu.tex" "Chuong/1_Gioi_thieu.pdf" "1_Gioi_thieu" 1777395385.51502 0
+  "BTL_PTIT.tex" 1777394258 10058 8d8d8f65f4cfb2e28083022b2342e3b6 ""
   "C:/Users/OK/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1776165969 89969 e95579120a3aa0ebc21d2737ca2ba701 ""
   "C:/Users/OK/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1776165102 13332035 1db0ed5fd9938f9df6b32ef4c8084d6f ""
   "C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -194,14 +194,14 @@
   "C:/Users/OK/AppData/Local/Programs/MiKTeX/tex/latex/xfor/xfor.sty" 1233849756 2689 44855b72da58344b1c1d9b3087bce6ca ""
   "C:/Users/OK/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/OK/AppData/Local/Programs/MiKTeX/tex/latex/xurl/xurl.sty" 1641733940 4675 e4b8c405820368c2dfb03526e16d725a ""
-  "Chuong/../BTL_PTIT.tex" 1776178410 8926 ac6c86a23c588e1a254f4f32d21fb0d9 ""
-  "Chuong/1_Gioi_thieu.aux" 1776178512 1260 407465a34175682ffd795bacaa56ca96 "pdflatex"
-  "Chuong/1_Gioi_thieu.bbl" 1776178510 540 47390d0fec917a8062f60a58a9b6d248 "bibtex Chuong/1_Gioi_thieu"
-  "Chuong/1_Gioi_thieu.out" 1776178512 666 a3073eaec5631b5acf5fbb0ee32bf70b "pdflatex"
-  "Chuong/1_Gioi_thieu.run.xml" 1776178512 2678 46a360aa19e90aa071ce4500f8ea2c3a "pdflatex"
-  "Chuong/1_Gioi_thieu.tex" 1776178503 3997 f82b8a00b31a96e56e7727e3990019dc ""
+  "Chuong/../BTL_PTIT.tex" 1777394258 10058 8d8d8f65f4cfb2e28083022b2342e3b6 ""
+  "Chuong/1_Gioi_thieu.aux" 1777395383 1260 407465a34175682ffd795bacaa56ca96 "pdflatex"
+  "Chuong/1_Gioi_thieu.bbl" 1777395379 540 47390d0fec917a8062f60a58a9b6d248 "bibtex Chuong/1_Gioi_thieu"
+  "Chuong/1_Gioi_thieu.out" 1777395383 666 a3073eaec5631b5acf5fbb0ee32bf70b "pdflatex"
+  "Chuong/1_Gioi_thieu.run.xml" 1777395383 2678 46a360aa19e90aa071ce4500f8ea2c3a "pdflatex"
+  "Chuong/1_Gioi_thieu.tex" 1777395378 4297 573d5353d8ed149187b25871e8a025ba ""
   "Tu_viet_tat.tex" 1776166697 831 0c2ce5cec073da2370c8307738d3562d ""
-  "c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/1_Gioi_thieu.tex" 1776178503 3997 f82b8a00b31a96e56e7727e3990019dc ""
+  "c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/1_Gioi_thieu.tex" 1777395378 4297 573d5353d8ed149187b25871e8a025ba ""
   (generated)
   "Chuong/1_Gioi_thieu-blx.bib"
   "Chuong/1_Gioi_thieu.aux"

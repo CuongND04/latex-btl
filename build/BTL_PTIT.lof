@@ -4,21 +4,20 @@
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Block diagram của hệ thống}}{6}{figure.caption.7}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Bo mạch ESP32 DevKit V1}}{7}{figure.caption.8}%
 \contentsline {figure}{\numberline {2.3}{\ignorespaces Cảm biến khí MQ-135}}{8}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Sơ đồ chân và giao tiếp module cảm biến khí}}{9}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Quạt tản nhiệt mini 5V kích thước 4x4}}{10}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Module LCD I2C 16×2 PCF8574}}{11}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Sơ đồ chân và giao tiếp module cảm biến khí}}{8}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Quạt tản nhiệt mini 5V kích thước 4x4}}{9}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Module LCD I2C 16×2 PCF8574}}{10}{figure.caption.12}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Màn hình LCD đang hoạt động hiển thị nồng độ khí và trạng thái quạt}}{11}{figure.caption.13}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Module Relay 2 kênh 5V với sơ đồ chân kết nối}}{12}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Servo SG90 (Micro Servo)}}{13}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Servo SG90 (Micro Servo)}}{12}{figure.caption.15}%
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Còi SFM-27 (Active Buzzer)}}{14}{figure.caption.16}%
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Module ADC ADS1115 16-bit 4 kênh (I2C)}}{15}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Module YX850 thực tế}}{17}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Module YX850 thực tế}}{16}{figure.caption.18}%
 \contentsline {figure}{\numberline {2.13}{\ignorespaces Nguyên lý chuyển nguồn chính và nguồn dự phòng của YX850}}{17}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Module hạ áp LM2596}}{18}{figure.caption.20}%
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Adapter nguồn 5V 2A}}{19}{figure.caption.21}%
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Pin lithium-ion 18650 dùng làm nguồn dự phòng}}{20}{figure.caption.22}%
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Sơ đồ tổng quan về thiết kế phần cứng}}{21}{figure.caption.24}%
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Hệ thống giám sát chất lượng không khí trong nhà máy}}{32}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Module hạ áp LM2596}}{17}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Adapter nguồn 5V 2A}}{18}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Pin lithium-ion 18650 dùng làm nguồn dự phòng}}{19}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Hệ thống giám sát chất lượng không khí trong nhà máy}}{32}{figure.caption.31}%
 \addvspace {10\p@ }
 \contentsfinish 
 \contentsfinish 

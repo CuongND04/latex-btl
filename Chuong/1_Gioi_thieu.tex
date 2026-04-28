@@ -28,6 +28,7 @@ Trong bài tập lớn này, nhóm tập trung vào giải pháp IoT kết hợp
 Hệ thống được thiết kế theo kiến trúc Edge-to-Cloud, tối ưu hóa hiệu suất giữa thiết bị biên và nền tảng điện toán đám mây:
 
 \begin{itemize}[label=\textbullet]
+    \item \textbf{Kiến trúc 3 lớp:} Hệ thống tách thành tầng Edge (ESP32 + cảm biến + relay + LCD), tầng xử lý trung tâm trên Cloud (MQTT Broker và dịch vụ xử lý dữ liệu), và tầng giám sát Dashboard để người dùng theo dõi và điều khiển từ xa.
 	\item \textbf{Vi điều khiển:} Nhóm chọn ESP32 làm bộ não trung tâm. Với lợi thế xử lý đa nhiệm, tích hợp WiFi và hỗ trợ tốt các thư viện IoT, ESP32 giúp xử lý mượt mà đồng thời việc đọc cảm biến và truyền dữ liệu mạng.
 	\item \textbf{Cảm biến:} Sử dụng 02 cảm biến MQ-135 đặt tại các khu vực trọng yếu. Đây là giải pháp cân bằng giữa chi phí và hiệu quả trong việc phát hiện sự biến đổi nồng độ khí ô nhiễm.
 	\item \textbf{Giao tiếp:} Giao thức MQTT (qua HiveMQ Broker) được lựa chọn nhờ tính nhẹ, độ trễ thấp. Hệ thống vận hành song song hai chế độ: AUTO (Edge xử lý trực tiếp qua Relay) và MANUAL (người dùng can thiệp từ xa qua Dashboard).

@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex Chuong/0_3_Tom_tat_noi_dung"] 1777381636.06572 "Chuong/0_3_Tom_tat_noi_dung.aux" "Chuong/0_3_Tom_tat_noi_dung.bbl" "Chuong/0_3_Tom_tat_noi_dung" 1777381640.39556 0
+["bibtex Chuong/0_3_Tom_tat_noi_dung"] 1777381636.06572 "Chuong/0_3_Tom_tat_noi_dung.aux" "Chuong/0_3_Tom_tat_noi_dung.bbl" "Chuong/0_3_Tom_tat_noi_dung" 1777393829.49336 0
   "./Danh_sach_tai_lieu_tham_khao.bib" 1776180585 758 e17d75e4b575961a71e6ca5ead4e0afa ""
   "C:/Users/OK/AppData/Local/Programs/MiKTeX/bibtex/bst/biblatex/biblatex.bst" 1752408733 65510 9a2a51799b543ff279b8ea2dd91ec499 ""
-  "Chuong/0_3_Tom_tat_noi_dung.aux" 1777381639 736 a1677094f2b71aea1770ad00f7679e96 "pdflatex"
-  "c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/0_3_Tom_tat_noi_dung-blx.bib" 1777381639 343 eecd58be191eac03682f8fda492bb690 ""
+  "Chuong/0_3_Tom_tat_noi_dung.aux" 1777393828 736 a1677094f2b71aea1770ad00f7679e96 "pdflatex"
+  "c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/0_3_Tom_tat_noi_dung-blx.bib" 1777393828 343 eecd58be191eac03682f8fda492bb690 ""
   (generated)
   "Chuong/0_3_Tom_tat_noi_dung.bbl"
   "Chuong/0_3_Tom_tat_noi_dung.blg"
   (rewritten before read)
-["pdflatex"] 1777381636.44806 "c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/0_3_Tom_tat_noi_dung.tex" "Chuong/0_3_Tom_tat_noi_dung.pdf" "0_3_Tom_tat_noi_dung" 1777381640.39661 0
-  "BTL_PTIT.tex" 1777380996 10058 8d8d8f65f4cfb2e28083022b2342e3b6 ""
+["pdflatex"] 1777393825.74448 "c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/0_3_Tom_tat_noi_dung.tex" "Chuong/0_3_Tom_tat_noi_dung.pdf" "0_3_Tom_tat_noi_dung" 1777393829.49456 0
+  "BTL_PTIT.tex" 1777391556 10058 8d8d8f65f4cfb2e28083022b2342e3b6 ""
   "C:/Users/OK/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1776165969 89969 e95579120a3aa0ebc21d2737ca2ba701 ""
   "C:/Users/OK/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1776165102 13332035 1db0ed5fd9938f9df6b32ef4c8084d6f ""
   "C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/vntex/t5.enc" 1368738347 7824 21ade6c3c7fd67cb4ace8dbc91c53118 ""
@@ -171,14 +171,14 @@
   "C:/Users/OK/AppData/Local/Programs/MiKTeX/tex/latex/xfor/xfor.sty" 1233849756 2689 44855b72da58344b1c1d9b3087bce6ca ""
   "C:/Users/OK/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/OK/AppData/Local/Programs/MiKTeX/tex/latex/xurl/xurl.sty" 1641733940 4675 e4b8c405820368c2dfb03526e16d725a ""
-  "Chuong/../BTL_PTIT.tex" 1777380996 10058 8d8d8f65f4cfb2e28083022b2342e3b6 ""
-  "Chuong/0_3_Tom_tat_noi_dung.aux" 1777381639 736 a1677094f2b71aea1770ad00f7679e96 "pdflatex"
+  "Chuong/../BTL_PTIT.tex" 1777391556 10058 8d8d8f65f4cfb2e28083022b2342e3b6 ""
+  "Chuong/0_3_Tom_tat_noi_dung.aux" 1777393828 736 a1677094f2b71aea1770ad00f7679e96 "pdflatex"
   "Chuong/0_3_Tom_tat_noi_dung.bbl" 1777381636 540 47390d0fec917a8062f60a58a9b6d248 "bibtex Chuong/0_3_Tom_tat_noi_dung"
-  "Chuong/0_3_Tom_tat_noi_dung.out" 1777381638 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Chuong/0_3_Tom_tat_noi_dung.run.xml" 1777381639 2750 911264caf3525886d5d0db5e30f2600b "pdflatex"
-  "Chuong/0_3_Tom_tat_noi_dung.tex" 1777381630 2193 dea68cd023b47a7462d2d513e057fc4f ""
+  "Chuong/0_3_Tom_tat_noi_dung.out" 1777393827 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Chuong/0_3_Tom_tat_noi_dung.run.xml" 1777393828 2750 911264caf3525886d5d0db5e30f2600b "pdflatex"
+  "Chuong/0_3_Tom_tat_noi_dung.tex" 1777393825 2277 6e57363f48b7bd2e7a55f308caa32e1c ""
   "Tu_viet_tat.tex" 1776166697 831 0c2ce5cec073da2370c8307738d3562d ""
-  "c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/0_3_Tom_tat_noi_dung.tex" 1777381630 2193 dea68cd023b47a7462d2d513e057fc4f ""
+  "c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/0_3_Tom_tat_noi_dung.tex" 1777393825 2277 6e57363f48b7bd2e7a55f308caa32e1c ""
   (generated)
   "Chuong/0_3_Tom_tat_noi_dung-blx.bib"
   "Chuong/0_3_Tom_tat_noi_dung.aux"

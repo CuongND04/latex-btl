@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.14)  14 APR 2026 21:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.14)  28 APR 2026 23:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -449,6 +449,9 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@inbox=\box60
 \enit@count@id=\count304
 \enitdp@description=\count305
+) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count306
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/subfiles\subfiles.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
@@ -484,11 +487,11 @@ Package: afterpage 2023/07/04 v1.08 After-Page Package (DPC)
 \AP@footins=\box63
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/algorithm2e\algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count306
+\c@AlgoLine=\count307
 \algocf@hangindent=\skip62
  (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count307
+\c@checkoddpage=\count308
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
@@ -524,9 +527,9 @@ Package: relsize 2013/03/29 ver 4.1
 \algoheightrule=\skip78
 \algotitleheightruledefault=\skip79
 \algotitleheightrule=\skip80
-\c@algocfline=\count308
-\c@algocfproc=\count309
-\c@algocf=\count310
+\c@algocfline=\count309
+\c@algocfproc=\count310
+\c@algocf=\count311
 \algocf@algoframe=\box70
 \algocf@algobox=\box71
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/capt-of\capt-of.sty
@@ -534,7 +537,7 @@ Package: capt-of 2009/12/29 v0.2 standard captions outside of floats
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip81
-\multirow@cntb=\count311
+\multirow@cntb=\count312
 \multirow@dima=\skip82
 \bigstrutjot=\dimen190
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
@@ -568,30 +571,30 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen198
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count312
-\c@continuedfloat=\count313
+\c@caption@flags=\count313
+\c@continuedfloat=\count314
 Package caption Info: scrextend package is loaded.
 \caption@addmargin@hsize=\dimen199
 \caption@addmargin@linewidth=\dimen256
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count314
+\lst@mode=\count315
 \lst@gtempboxa=\box72
 \lst@token=\toks42
-\lst@length=\count315
+\lst@length=\count316
 \lst@currlwidth=\dimen257
-\lst@column=\count316
-\lst@pos=\count317
+\lst@column=\count317
+\lst@pos=\count318
 \lst@lostspace=\dimen258
 \lst@width=\dimen259
-\lst@newlines=\count318
-\lst@lineno=\count319
+\lst@newlines=\count319
+\lst@lineno=\count320
 \lst@maxwidth=\dimen260
  (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-\c@lstnumber=\count320
-\lst@skipnumbers=\count321
+\c@lstnumber=\count321
+\lst@skipnumbers=\count322
 \lst@framebox=\box73
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2025/11/14 1.11b listings configuration
@@ -606,7 +609,7 @@ Package: listings 2025/11/14 1.11b (Carsten Heinz)
     so I'm assuming it got fixed.
 (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count322
+\c@float@type=\count323
 \float@exts=\toks43
 \float@box=\box74
 \@float@everytoks=\toks44
@@ -614,9 +617,9 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count323
+\c@subfigure=\count324
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count324
+\c@subtable=\count325
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\glossaries.sty
 Package: glossaries 2026/03/06 v5.0 (NLCT)
  (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
@@ -625,14 +628,10 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 \XKV@toks=\toks45
 \XKV@tempa@toks=\toks46
 )
-\XKV@depth=\count325
+\XKV@depth=\count326
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
 Package: mfirstuc 2025/04/03 v2.09 (NLCT)
- (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
-Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count326
-)
 \@glsmfirst=\toks47
 \@glsmrest=\toks48
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
@@ -1193,7 +1192,7 @@ LaTeX Font Info:    ... okay on input line 2.
 * \oddsidemargin=27.31465pt
 * \evensidemargin=27.31465pt
 * \topmargin=-52.36449pt
-* \headheight=10.0pt
+* \headheight=15.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
@@ -1308,15 +1307,15 @@ Package logreq Info: Writing requests to '1_Gioi_thieu.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33641 strings out of 467871
- 632478 string characters out of 5419828
- 1345277 words of memory out of 5000000
- 62035 multiletter control sequences out of 15000+600000
+ 33665 strings out of 467871
+ 633080 string characters out of 5419828
+ 1346711 words of memory out of 5000000
+ 62059 multiletter control sequences out of 15000+600000
  638856 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,5n,124p,2620b,470s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmb8v.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmr8v.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmri8v.pfb>
-Output written on c:\Users\OK\Downloads\HK2(25-26)\XayDungCacHeThongNhung\btl\Chuong\1_Gioi_thieu.pdf (1 page, 96391 bytes).
+Output written on c:\Users\OK\Downloads\HK2(25-26)\XayDungCacHeThongNhung\btl\Chuong\1_Gioi_thieu.pdf (1 page, 96933 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)

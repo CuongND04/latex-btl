@@ -590,13 +590,6 @@ INPUT .\Hinh_ve\pin_lithium_18650.png
 INPUT .\Hinh_ve\pin_lithium_18650.png
 INPUT .\Hinh_ve\pin_lithium_18650.png
 INPUT .\Hinh_ve\pin_lithium_18650.png
-INPUT .\Hinh_ve\so_do_tong_quan.png
-INPUT .\Hinh_ve\so_do_tong_quan.png
-INPUT Hinh_ve\so_do_tong_quan.png
-INPUT .\Hinh_ve\so_do_tong_quan.png
-INPUT .\Hinh_ve\so_do_tong_quan.png
-INPUT .\Hinh_ve\so_do_tong_quan.png
-INPUT .\Hinh_ve\so_do_tong_quan.png
 INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\utmr8v.tfm
 INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\ucrr8v.tfm
 INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\utmr8v.tfm
@@ -604,6 +597,14 @@ INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\ucrr8v.tfm
 INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8c.tfm
 INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8c.vf
 INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
+INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
+INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
+INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
+INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\tfm\public\latex-fonts\lasy9.tfm
+INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\tfm\vntex\urwvn\ucrr8v.tfm
 INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
 INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
@@ -642,6 +643,8 @@ INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\c
 INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy9.pfb
+INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy9.pfb
 INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\urwvn\ucrr8v.pfb
 INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\type1\vntex\urwvn\ucrr8v.pfb
 INPUT C:\Users\OK\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb

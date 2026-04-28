@@ -10,19 +10,19 @@ Các kết quả nổi bật:
 \begin{itemize}[label=\textbullet]
 	\item Dữ liệu môi trường được cập nhật liên tục với độ trễ thấp qua giao thức MQTT.
 	\item Cơ chế điều khiển tự động phản hồi chính xác khi môi trường thay đổi.
-	\item Tích hợp thành công các tính năng hiện đại như Cloud Dashboard và cập nhật OTA.
+	\item Tích hợp thành công các tính năng hiện đại như Cloud Dashboard, cập nhật OTA và chế độ khẩn cấp bằng nút bấm vật lý.
 	\item Hệ thống duy trì hoạt động ổn định nhờ cơ chế nguồn dự phòng thông minh.
 \end{itemize}
 
-Dù đã đạt được các yêu cầu về chức năng và phi chức năng, hệ thống vẫn còn một số hạn chế về sai số của cảm biến bán dẫn và cần tăng cường thêm các lớp bảo mật dữ liệu trên đường truyền.
+Dù đã đạt được các yêu cầu về chức năng và phi chức năng, hệ thống vẫn còn một số hạn chế về sai số của cảm biến bán dẫn và cần tăng cường thêm lớp xác thực chứng chỉ CA cho kết nối MQTT/TLS.
 
 \subsection{Hướng phát triển}
 Để nâng tầm hệ thống lên quy mô ứng dụng thực tế chuyên sâu hơn, nhóm đề xuất các hướng phát triển:
 \begin{itemize}[label=\textbullet]
 	\item Nâng cấp độ chính xác: Thay thế cảm biến MQ bằng các dòng cảm biến kỹ thuật số (như NDIR hoặc Laser) để có số liệu chính xác tuyệt đối về bụi mịn và các loại khí đặc thù.
-	\item Tối ưu hóa phần mềm: Áp dụng hệ điều hành thời gian thực (FreeRTOS) để quản lý đa tác vụ chuyên nghiệp hơn, bảo đảm tính thời gian thực (real-time) khắt khe trong môi trường công nghiệp.
-	\item Trí tuệ nhân tạo (AI): Triển khai các mô hình Machine Learning trên Cloud để dự báo xu hướng ô nhiễm dựa trên dữ liệu lịch sử, thay vì chỉ cảnh báo theo ngưỡng tĩnh như hiện tại.
-	\item Bảo mật và quy mô: Tích hợp mã hóa TLS/SSL cho giao thức MQTT và mở rộng hệ thống thành mạng lưới Mesh Network gồm nhiều node giám sát phân tán trong toàn bộ khuôn viên nhà máy.
+	\item Trí tuệ nhân tạo (AI): Triển khai mô-đun AI Summary để tóm tắt mức độ ô nhiễm theo giờ, cảnh báo xu hướng bất thường và đề xuất hành động an toàn.
+	\item Bảo mật và quy mô: Tích hợp chứng chỉ CA đầy đủ cho MQTT/TLS trên ESP32 (thay cho \texttt{setInsecure()}), đồng thời mở rộng hệ thống thành mạng lưới nhiều node giám sát phân tán.
+	\item Chuẩn hóa dữ liệu cảm biến: Bổ sung bước calibration để quy đổi từ giá trị ADC sang đơn vị ppm, tăng khả năng đối chiếu với tiêu chuẩn môi trường.
 \end{itemize}
 
 \end{document}
