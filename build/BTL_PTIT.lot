@@ -1,12 +1,12 @@
 \babel@toc {nil}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Cấu hình chân GPIO của ESP32 trong hệ thống}}{20}{table.caption.23}%
-\contentsline {table}{\numberline {2.2}{\ignorespaces Bảng phân ngưỡng chất lượng không khí (AQI) và hành động điều khiển}}{21}{table.caption.24}%
-\contentsline {table}{\numberline {2.3}{\ignorespaces Cấu trúc Topic MQTT}}{23}{table.caption.25}%
-\contentsline {table}{\numberline {2.4}{\ignorespaces Phân chia tác vụ logic khi không sử dụng RTOS}}{24}{table.caption.26}%
-\contentsline {table}{\numberline {2.5}{\ignorespaces Nguyên tắc điều khiển Auto và Manual}}{25}{table.caption.27}%
-\contentsline {table}{\numberline {2.6}{\ignorespaces Phân chia tác vụ khi sử dụng RTOS trên ESP32}}{27}{table.caption.28}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Cấu hình chân GPIO của ESP32 trong hệ thống}}{22}{table.caption.23}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Bảng phân ngưỡng chất lượng không khí (AQI) và hành động điều khiển}}{23}{table.caption.24}%
+\contentsline {table}{\numberline {2.3}{\ignorespaces Cấu trúc Topic MQTT}}{25}{table.caption.25}%
+\contentsline {table}{\numberline {2.4}{\ignorespaces Phân chia tác vụ logic khi không sử dụng RTOS}}{27}{table.caption.26}%
+\contentsline {table}{\numberline {2.5}{\ignorespaces Nguyên tắc điều khiển Auto và Manual}}{27}{table.caption.27}%
+\contentsline {table}{\numberline {2.6}{\ignorespaces Phân chia tác vụ khi sử dụng RTOS trên ESP32}}{28}{table.caption.28}%
 \addvspace {10\p@ }
 \contentsfinish 
 \contentsfinish 

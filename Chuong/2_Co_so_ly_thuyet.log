@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.14)  29 APR 2026 00:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.4.14)  29 APR 2026 09:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -12,7 +12,7 @@ Document Class: subfiles 2020/11/14 v2.2 Multi-file projects (class)
 Preamble taken from file `../BTL_PTIT.tex'
 (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/import\import.sty
 Package: import 2020/04/01  v 6.2
-) (../BTL_PTIT.tex (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+) (c:\Users\OK\Downloads\HK2(25-26)\XayDungCacHeThongNhung\btl\BTL_PTIT.tex (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
 (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
@@ -1053,7 +1053,7 @@ Package biblatex Info: ... and expl3
 Package: xparse 2025-10-09 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
-)) (../Tu_viet_tat.tex) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+)) (Tu_viet_tat.tex) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
  (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
@@ -1151,7 +1151,7 @@ File: t5utm.fd 2005/08/24 Fontinst v1.929 font definitions for T5/ptm.
 LaTeX Warning: Unused global option(s):
     [13pt].
 
-No file 2_Co_so_ly_thuyet.aux.
+(c:\Users\OK\Downloads\HK2(25-26)\XayDungCacHeThongNhung\btl\Chuong\2_Co_so_ly_thuyet.aux)
 \openout1 = `2_Co_so_ly_thuyet.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
@@ -1174,6 +1174,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 2.
 LaTeX Font Info:    ... okay on input line 2.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1263,10 +1264,11 @@ Package biblatex Info: Data encoding 'utf8' specified.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '2_Co_so_ly_thuyet.bbl' found.
-(2_Co_so_ly_thuyet.bbl)
+(c:\Users\OK\Downloads\HK2(25-26)\XayDungCacHeThongNhung\btl\Chuong\2_Co_so_ly_thuyet.bbl)
 Package biblatex Info: Reference section=0 on input line 2.
 Package biblatex Info: Reference segment=0 on input line 2.
 Package hyperref Info: Link coloring OFF on input line 2.
+ (c:\Users\OK\Downloads\HK2(25-26)\XayDungCacHeThongNhung\btl\Chuong\2_Co_so_ly_thuyet.out) (c:\Users\OK\Downloads\HK2(25-26)\XayDungCacHeThongNhung\btl\Chuong\2_Co_so_ly_thuyet.out)
 \@outlinefile=\write5
 \openout5 = `2_Co_so_ly_thuyet.out'.
 
@@ -1276,104 +1278,94 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [1
 
 {C:/Users/OK/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/vntex/t5.enc}{C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
-<../Hinh_ve/block_diagram.png, id=21, 469.755pt x 202.8378pt>
-File: ../Hinh_ve/block_diagram.png Graphic file (type png)
-<use ../Hinh_ve/block_diagram.png>
-Package pdftex.def Info: ../Hinh_ve/block_diagram.png  used on input line 86.
-(pdftex.def)             Requested size: 405.45047pt x 175.07158pt.
-<../Hinh_ve/esp32.png, id=23, 453.3738pt x 326.1786pt>
-File: ../Hinh_ve/esp32.png Graphic file (type png)
-<use ../Hinh_ve/esp32.png>
-Package pdftex.def Info: ../Hinh_ve/esp32.png  used on input line 96.
+Overfull \hbox (1.94818pt too wide) in paragraph at lines 71--72
+[]\T5/ptm/m/n/10 Lªp tr¼nh ^^_a nhi»m: Sû döng FreeRTOS ^^_º ph¥n chia c¡c Task (taskEmergency, taskOTA, taskControl,
+ []
+
+<Hinh_ve/block_diagram.png, id=163, 1201.48875pt x 659.46375pt>
+File: Hinh_ve/block_diagram.png Graphic file (type png)
+<use Hinh_ve/block_diagram.png>
+Package pdftex.def Info: Hinh_ve/block_diagram.png  used on input line 89.
+(pdftex.def)             Requested size: 405.45047pt x 222.53424pt.
+[2]
+<Hinh_ve/esp32.png, id=175, 453.3738pt x 326.1786pt>
+File: Hinh_ve/esp32.png Graphic file (type png)
+<use Hinh_ve/esp32.png>
+Package pdftex.def Info: Hinh_ve/esp32.png  used on input line 99.
 (pdftex.def)             Requested size: 320.0935pt x 230.30434pt.
- [2 <../Hinh_ve/block_diagram.png>] [3 <../Hinh_ve/esp32.png>]
-<../Hinh_ve/mq135_1.png, id=45, 152.2488pt x 128.1588pt>
-File: ../Hinh_ve/mq135_1.png Graphic file (type png)
-<use ../Hinh_ve/mq135_1.png>
-Package pdftex.def Info: ../Hinh_ve/mq135_1.png  used on input line 157.
+ [3 <./Hinh_ve/block_diagram.png (PNG copy)> <./Hinh_ve/esp32.png>]
+<Hinh_ve/mq135_1.png, id=184, 152.2488pt x 128.1588pt>
+File: Hinh_ve/mq135_1.png Graphic file (type png)
+<use Hinh_ve/mq135_1.png>
+Package pdftex.def Info: Hinh_ve/mq135_1.png  used on input line 160.
 (pdftex.def)             Requested size: 179.25157pt x 150.90144pt.
-<../Hinh_ve/mq2.png, id=46, 247.1634pt x 148.8762pt>
-File: ../Hinh_ve/mq2.png Graphic file (type png)
-<use ../Hinh_ve/mq2.png>
-Package pdftex.def Info: ../Hinh_ve/mq2.png  used on input line 164.
+ [4]
+<Hinh_ve/mq2.png, id=189, 247.1634pt x 148.8762pt>
+File: Hinh_ve/mq2.png Graphic file (type png)
+<use Hinh_ve/mq2.png>
+Package pdftex.def Info: Hinh_ve/mq2.png  used on input line 167.
 (pdftex.def)             Requested size: 320.0935pt x 192.80983pt.
- [4 <../Hinh_ve/mq135_1.png>]
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 180.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 183.
  (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 180.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 183.
  (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 180.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 183.
  (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-<../Hinh_ve/quat_tan_nhiet.png, id=54, 244.7544pt x 244.7544pt>
-File: ../Hinh_ve/quat_tan_nhiet.png Graphic file (type png)
-<use ../Hinh_ve/quat_tan_nhiet.png>
-Package pdftex.def Info: ../Hinh_ve/quat_tan_nhiet.png  used on input line 196.
+) [5 <./Hinh_ve/mq135_1.png> <./Hinh_ve/mq2.png>]
+<Hinh_ve/quat_tan_nhiet.png, id=199, 244.7544pt x 244.7544pt>
+File: Hinh_ve/quat_tan_nhiet.png Graphic file (type png)
+<use Hinh_ve/quat_tan_nhiet.png>
+Package pdftex.def Info: Hinh_ve/quat_tan_nhiet.png  used on input line 199.
 (pdftex.def)             Requested size: 192.0548pt x 192.05418pt.
- [5 <../Hinh_ve/mq2.png>]
-LaTeX Font Info:    Trying to load font information for T5+pcr on input line 226.
+LaTeX Font Info:    Trying to load font information for T5+pcr on input line 229.
  (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/vntex\t5pcr.fd
 File: t5ucr.fd 2005/08/24 Fontinst v1.929 font definitions for T5/pcr.
-) [6 <../Hinh_ve/quat_tan_nhiet.png>]
-<../Hinh_ve/lcd_i2c_16x2.png, id=71, 323.2878pt x 323.2878pt>
-File: ../Hinh_ve/lcd_i2c_16x2.png Graphic file (type png)
-<use ../Hinh_ve/lcd_i2c_16x2.png>
-Package pdftex.def Info: ../Hinh_ve/lcd_i2c_16x2.png  used on input line 238.
+) [6 <./Hinh_ve/quat_tan_nhiet.png>]
+<Hinh_ve/lcd_i2c_16x2.png, id=207, 323.2878pt x 323.2878pt>
+File: Hinh_ve/lcd_i2c_16x2.png Graphic file (type png)
+<use Hinh_ve/lcd_i2c_16x2.png>
+Package pdftex.def Info: Hinh_ve/lcd_i2c_16x2.png  used on input line 241.
 (pdftex.def)             Requested size: 213.39568pt x 213.39526pt.
-<../Hinh_ve/lcd_running.png, id=72, 293.4162pt x 220.1826pt>
-File: ../Hinh_ve/lcd_running.png Graphic file (type png)
-<use ../Hinh_ve/lcd_running.png>
-Package pdftex.def Info: ../Hinh_ve/lcd_running.png  used on input line 245.
+<Hinh_ve/lcd_running.png, id=208, 293.4162pt x 220.1826pt>
+File: Hinh_ve/lcd_running.png Graphic file (type png)
+<use Hinh_ve/lcd_running.png>
+Package pdftex.def Info: Hinh_ve/lcd_running.png  used on input line 248.
 (pdftex.def)             Requested size: 256.07741pt x 192.16878pt.
- [7 <../Hinh_ve/lcd_i2c_16x2.png> <../Hinh_ve/lcd_running.png>]
-<../Hinh_ve/relay_2_kenh.png, id=83, 335.3328pt x 335.3328pt>
-File: ../Hinh_ve/relay_2_kenh.png Graphic file (type png)
-<use ../Hinh_ve/relay_2_kenh.png>
-Package pdftex.def Info: ../Hinh_ve/relay_2_kenh.png  used on input line 287.
+ [7 <./Hinh_ve/lcd_i2c_16x2.png> <./Hinh_ve/lcd_running.png>]
+<Hinh_ve/relay_2_kenh.png, id=218, 335.3328pt x 335.3328pt>
+File: Hinh_ve/relay_2_kenh.png Graphic file (type png)
+<use Hinh_ve/relay_2_kenh.png>
+Package pdftex.def Info: Hinh_ve/relay_2_kenh.png  used on input line 290.
 (pdftex.def)             Requested size: 234.73654pt x 234.73647pt.
-<../Hinh_ve/servo_sg90.png, id=84, 469.755pt x 469.755pt>
-File: ../Hinh_ve/servo_sg90.png Graphic file (type png)
-<use ../Hinh_ve/servo_sg90.png>
-Package pdftex.def Info: ../Hinh_ve/servo_sg90.png  used on input line 299.
+ [8 <./Hinh_ve/relay_2_kenh.png>]
+<Hinh_ve/servo_sg90.png, id=225, 469.755pt x 469.755pt>
+File: Hinh_ve/servo_sg90.png Graphic file (type png)
+<use Hinh_ve/servo_sg90.png>
+Package pdftex.def Info: Hinh_ve/servo_sg90.png  used on input line 302.
 (pdftex.def)             Requested size: 213.39568pt x 213.3948pt.
- [8 <../Hinh_ve/relay_2_kenh.png>] [9 <../Hinh_ve/servo_sg90.png>]
-<../Hinh_ve/buzzer_sfm27.png, id=105, 409.53pt x 465.9006pt>
-File: ../Hinh_ve/buzzer_sfm27.png Graphic file (type png)
-<use ../Hinh_ve/buzzer_sfm27.png>
-Package pdftex.def Info: ../Hinh_ve/buzzer_sfm27.png  used on input line 356.
+ [9 <./Hinh_ve/servo_sg90.png>]
+<Hinh_ve/buzzer_sfm27.png, id=238, 409.53pt x 465.9006pt>
+File: Hinh_ve/buzzer_sfm27.png Graphic file (type png)
+<use Hinh_ve/buzzer_sfm27.png>
+Package pdftex.def Info: Hinh_ve/buzzer_sfm27.png  used on input line 359.
 (pdftex.def)             Requested size: 192.0548pt x 218.497pt.
- [10 <../Hinh_ve/buzzer_sfm27.png>]
-<../Hinh_ve/ads1115_module.png, id=115, 174.8934pt x 198.9834pt>
-File: ../Hinh_ve/ads1115_module.png Graphic file (type png)
-<use ../Hinh_ve/ads1115_module.png>
-Package pdftex.def Info: ../Hinh_ve/ads1115_module.png  used on input line 401.
+ [10 <./Hinh_ve/buzzer_sfm27.png>]
+<Hinh_ve/ads1115_module.png, id=248, 174.8934pt x 198.9834pt>
+File: Hinh_ve/ads1115_module.png Graphic file (type png)
+<use Hinh_ve/ads1115_module.png>
+Package pdftex.def Info: Hinh_ve/ads1115_module.png  used on input line 404.
 (pdftex.def)             Requested size: 192.0548pt x 218.50896pt.
 
-Overfull \hbox (11.95882pt too wide) in paragraph at lines 408--409
+Overfull \hbox (11.95882pt too wide) in paragraph at lines 411--412
 []\T5/ptm/b/n/10 Chùc n«ng: \T5/ptm/m/n/10 Chuyºn ^^_êi analog sang digital 16-bit; hé trñ ^^_o ^^_ìn (single-ended) ho°c vi sai (differential). 
  []
 
-[11 <../Hinh_ve/ads1115_module.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 425--426
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 426--427
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 427--428
-
- []
-
-
+[11 <./Hinh_ve/ads1115_module.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 428--429
 
  []
@@ -1383,146 +1375,97 @@ Underfull \hbox (badness 10000) in paragraph at lines 429--430
 
  []
 
-<../Hinh_ve/yx850.png, id=128, 174.8934pt x 174.8934pt>
-File: ../Hinh_ve/yx850.png Graphic file (type png)
-<use ../Hinh_ve/yx850.png>
-Package pdftex.def Info: ../Hinh_ve/yx850.png  used on input line 451.
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--432
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
+
+ []
+
+<Hinh_ve/yx850.png, id=260, 174.8934pt x 174.8934pt>
+File: Hinh_ve/yx850.png Graphic file (type png)
+<use Hinh_ve/yx850.png>
+Package pdftex.def Info: Hinh_ve/yx850.png  used on input line 454.
 (pdftex.def)             Requested size: 234.73654pt x 234.73755pt.
 [12]
-<../Hinh_ve/YX850_2.png, id=142, 282.3348pt x 154.6578pt>
-File: ../Hinh_ve/YX850_2.png Graphic file (type png)
-<use ../Hinh_ve/YX850_2.png>
-Package pdftex.def Info: ../Hinh_ve/YX850_2.png  used on input line 458.
+<Hinh_ve/YX850_2.png, id=273, 282.3348pt x 154.6578pt>
+File: Hinh_ve/YX850_2.png Graphic file (type png)
+<use Hinh_ve/YX850_2.png>
+Package pdftex.def Info: Hinh_ve/YX850_2.png  used on input line 461.
 (pdftex.def)             Requested size: 384.1096pt x 210.42384pt.
-<../Hinh_ve/LM2596S.png, id=143, 185.0112pt x 185.0112pt>
-File: ../Hinh_ve/LM2596S.png Graphic file (type png)
-<use ../Hinh_ve/LM2596S.png>
-Package pdftex.def Info: ../Hinh_ve/LM2596S.png  used on input line 478.
+<Hinh_ve/LM2596S.png, id=274, 185.0112pt x 185.0112pt>
+File: Hinh_ve/LM2596S.png Graphic file (type png)
+<use Hinh_ve/LM2596S.png>
+Package pdftex.def Info: Hinh_ve/LM2596S.png  used on input line 481.
 (pdftex.def)             Requested size: 234.73654pt x 234.74988pt.
- [13 <../Hinh_ve/yx850.png> <../Hinh_ve/YX850_2.png>]
-<../Hinh_ve/adapter_5v_2a.png, id=154, 206.6922pt x 206.6922pt>
-File: ../Hinh_ve/adapter_5v_2a.png Graphic file (type png)
-<use ../Hinh_ve/adapter_5v_2a.png>
-Package pdftex.def Info: ../Hinh_ve/adapter_5v_2a.png  used on input line 505.
+ [13 <./Hinh_ve/yx850.png> <./Hinh_ve/YX850_2.png>]
+<Hinh_ve/adapter_5v_2a.png, id=284, 206.6922pt x 206.6922pt>
+File: Hinh_ve/adapter_5v_2a.png Graphic file (type png)
+<use Hinh_ve/adapter_5v_2a.png>
+Package pdftex.def Info: Hinh_ve/adapter_5v_2a.png  used on input line 508.
 (pdftex.def)             Requested size: 213.39568pt x 213.39995pt.
- [14 <../Hinh_ve/LM2596S.png>]
-<../Hinh_ve/pin_lithium_18650.png, id=162, 176.8206pt x 176.8206pt>
-File: ../Hinh_ve/pin_lithium_18650.png Graphic file (type png)
-<use ../Hinh_ve/pin_lithium_18650.png>
-Package pdftex.def Info: ../Hinh_ve/pin_lithium_18650.png  used on input line 545.
+ [14 <./Hinh_ve/LM2596S.png>]
+<Hinh_ve/pin_lithium_18650.png, id=291, 176.8206pt x 176.8206pt>
+File: Hinh_ve/pin_lithium_18650.png Graphic file (type png)
+<use Hinh_ve/pin_lithium_18650.png>
+Package pdftex.def Info: Hinh_ve/pin_lithium_18650.png  used on input line 548.
 (pdftex.def)             Requested size: 213.39568pt x 213.40315pt.
- [15 <../Hinh_ve/adapter_5v_2a.png>]
-c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/2_Co_so_ly_thuyet.tex:587: You can't use `macro parameter character #' in restricted horizontal mode.
-l.587 KhÃ­ phÃ²ng 1 & A0 & I2C ADC & MQ-135 #
-                                             1 \\
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
+ [15 <./Hinh_ve/adapter_5v_2a.png>] [16 <./Hinh_ve/pin_lithium_18650.png>] [17]
+Overfull \hbox (6.32814pt too wide) in paragraph at lines 644--645
+[]\T5/ptm/b/n/10 Cì ch¸ chèng nhi¹u I2C khi Relay ^^_âng/ng­t: \T5/ptm/m/n/10 Khi câ sü ki»n chuyºn tr¤ng th¡i qu¤t (relay ^^_âng/ng­t),
+ []
 
-c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/2_Co_so_ly_thuyet.tex:589: You can't use `macro parameter character #' in restricted horizontal mode.
-l.589 KhÃ­ phÃ²ng 2 & A1 & I2C ADC & MQ-135 #
-                                             2 \\
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/2_Co_so_ly_thuyet.tex:595: You can't use `macro parameter character #' in restricted horizontal mode.
-l.595 Servo phÃ²ng 1 & GPIO 26 & PWM & SG90 #
-                                             1 \\
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/2_Co_so_ly_thuyet.tex:596: You can't use `macro parameter character #' in restricted horizontal mode.
-l.596 Servo phÃ²ng 2 & GPIO 27 & PWM & SG90 #
-                                             2 \\
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/2_Co_so_ly_thuyet.tex:597: You can't use `macro parameter character #' in restricted horizontal mode.
-l.597 ...er phÃ²ng 1 & GPIO 25 & Output & SFM-27 #
-                                                  1 \\
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-c:/Users/OK/Downloads/HK2(25-26)/XayDungCacHeThongNhung/btl/Chuong/2_Co_so_ly_thuyet.tex:598: You can't use `macro parameter character #' in restricted horizontal mode.
-l.598 Buzzer phÃ²ng 2 & GPIO 4 & Output & SFM-27 #
-                                                  2 \\
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-[16 <../Hinh_ve/pin_lithium_18650.png>]
-
-Package caption Warning: \setcaptiontype
-(caption)                outside box or environment on input line 608.
-See the caption package documentation for explanation.
-
-[17] [18] [19] [20] (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+[18] [19] [20] (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 ) (C:\Users\OK\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
-) [21] [22] [23] [24] [25]
-<../Hinh_ve/hinh_san_pham.png, id=388, 1284.8pt x 963.6pt>
-File: ../Hinh_ve/hinh_san_pham.png Graphic file (type png)
-<use ../Hinh_ve/hinh_san_pham.png>
-Package pdftex.def Info: ../Hinh_ve/hinh_san_pham.png  used on input line 1272.
+) [21] [22] [23] [24] [25] [26] [27]
+Overfull \hbox (3.76869pt too wide) in paragraph at lines 1263--1264
+\T5/ptm/m/n/10 ho°c \T5/pcr/m/n/10 air/updatefirmware\T5/ptm/m/n/10 . Payload ^^_i·u khiºn ^^_÷ñc parse ra c¡c tr÷íng (\T5/pcr/m/n/10 room, mode, fan,
+ []
+
+<Hinh_ve/hinh_san_pham.png, id=510, 1284.8pt x 963.6pt>
+File: Hinh_ve/hinh_san_pham.png Graphic file (type png)
+<use Hinh_ve/hinh_san_pham.png>
+Package pdftex.def Info: Hinh_ve/hinh_san_pham.png  used on input line 1276.
 (pdftex.def)             Requested size: 341.43437pt x 256.07324pt.
- [26]
+[28 <./Hinh_ve/hinh_san_pham.png (PNG copy)>]
 
 Package glossaries Warning: No \printnoidxglossary or \printnoidxglossaries
  found. (Remove \makenoidxglossaries if you don't want any glossaries.)
 This document will not have a glossary.
 
-[27 <../Hinh_ve/hinh_san_pham.png (PNG copy)>] (2_Co_so_ly_thuyet.aux)
+[29] (c:\Users\OK\Downloads\HK2(25-26)\XayDungCacHeThongNhung\btl\Chuong\2_Co_so_ly_thuyet.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `2_Co_so_ly_thuyet.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `2_Co_so_ly_thuyet.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  DDA78BD79D88A76432740E2113D687DB;8333.
-
-Package biblatex Warning: Please (re)run BibTeX on the file(s):
-(biblatex)                2_Co_so_ly_thuyet
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `2_Co_so_ly_thuyet.out' has not changed.
+(rerunfilecheck)             Checksum: DDA78BD79D88A76432740E2113D687DB;8333.
 Package logreq Info: Writing requests to '2_Co_so_ly_thuyet.run.xml'.
 \openout1 = `2_Co_so_ly_thuyet.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34623 strings out of 467871
- 647517 string characters out of 5419828
- 1518304 words of memory out of 5000000
- 62740 multiletter control sequences out of 15000+600000
+ 34634 strings out of 467871
+ 647717 string characters out of 5419828
+ 1520965 words of memory out of 5000000
+ 62743 multiletter control sequences out of 15000+600000
  658829 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,9n,124p,2625b,1999s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,9n,124p,2625b,2075s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/ucrr8v.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmb8v.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmr8v.pfb><C:/Users/OK/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/urwvn/utmri8v.pfb>
-Output written on 2_Co_so_ly_thuyet.pdf (27 pages, 6513280 bytes).
+Output written on c:\Users\OK\Downloads\HK2(25-26)\XayDungCacHeThongNhung\btl\Chuong\2_Co_so_ly_thuyet.pdf (29 pages, 6853188 bytes).
 PDF statistics:
- 518 PDF objects out of 1000 (max. 8388607)
- 270 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 638 PDF objects out of 1000 (max. 8388607)
+ 272 named destinations out of 1000 (max. 500000)
+ 382 words of extra memory for PDF output out of 10000 (max. 10000000)
 

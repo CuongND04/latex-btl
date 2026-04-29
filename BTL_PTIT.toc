@@ -19,8 +19,8 @@
 \contentsline {subsubsection}{\numberline {b}Xử lý và điều khiển thiết bị (Actuation Control)}{6}{subsubsection.2.1.2.2}%
 \contentsline {subsubsection}{\numberline {c}Truyền thông và giám sát}{6}{subsubsection.2.1.2.3}%
 \contentsline {subsubsection}{\numberline {d}Quản trị nâng cao}{6}{subsubsection.2.1.2.4}%
-\contentsline {subsection}{\numberline {2.1.3}Yêu cầu phi chức năng}{6}{subsection.2.1.3}%
-\contentsline {subsubsection}{\numberline {a}Tính thời gian thực (Real-time)}{6}{subsubsection.2.1.3.1}%
+\contentsline {subsection}{\numberline {2.1.3}Yêu cầu phi chức năng}{7}{subsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {a}Tính thời gian thực (Real-time)}{7}{subsubsection.2.1.3.1}%
 \contentsline {subsubsection}{\numberline {b}Quản lý năng lượng (Power Management)}{7}{subsubsection.2.1.3.2}%
 \contentsline {subsubsection}{\numberline {c}Độ tin cậy và bảo mật}{7}{subsubsection.2.1.3.3}%
 \contentsline {subsubsection}{\numberline {d}Chi phí (Cost)}{7}{subsubsection.2.1.3.4}%
@@ -28,19 +28,19 @@
 \contentsline {subsubsection}{\numberline {a}Tài nguyên thiết bị (Hardware Limits)}{7}{subsubsection.2.1.4.1}%
 \contentsline {subsubsection}{\numberline {b}Ràng buộc cảm biến}{7}{subsubsection.2.1.4.2}%
 \contentsline {subsubsection}{\numberline {c}Môi trường hoạt động}{7}{subsubsection.2.1.4.3}%
-\contentsline {section}{\numberline {2.2}Phần cứng của hệ thống}{7}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Block diagram}{7}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.2}Phần cứng của hệ thống}{8}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Block diagram}{8}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}Vi điều khiển ESP32}{8}{subsection.2.2.2}%
 \contentsline {subsection}{\numberline {2.2.3}MQ-135}{9}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Quạt tản nhiệt 5V mini 4x4}{10}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.4}Quạt tản nhiệt 5V mini 4x4}{11}{subsection.2.2.4}%
 \contentsline {subsection}{\numberline {2.2.5}Module LCD I2C 16x2}{11}{subsection.2.2.5}%
 \contentsline {subsection}{\numberline {2.2.6}Module Relay 2 kênh 5V}{12}{subsection.2.2.6}%
-\contentsline {subsection}{\numberline {2.2.7}Servo SG90}{13}{subsection.2.2.7}%
-\contentsline {subsubsection}{\numberline {a}Giới thiệu nhanh}{13}{subsubsection.2.2.7.1}%
+\contentsline {subsection}{\numberline {2.2.7}Servo SG90}{14}{subsection.2.2.7}%
+\contentsline {subsubsection}{\numberline {a}Giới thiệu nhanh}{14}{subsubsection.2.2.7.1}%
 \contentsline {subsubsection}{\numberline {b}Chức năng \& Ứng dụng}{14}{subsubsection.2.2.7.2}%
 \contentsline {subsubsection}{\numberline {c}Thông số kỹ thuật chính}{14}{subsubsection.2.2.7.3}%
 \contentsline {subsubsection}{\numberline {d}Sơ đồ chân (Pinout)}{14}{subsubsection.2.2.7.4}%
-\contentsline {subsubsection}{\numberline {e}Nguyên lý hoạt động}{14}{subsubsection.2.2.7.5}%
+\contentsline {subsubsection}{\numberline {e}Nguyên lý hoạt động}{15}{subsubsection.2.2.7.5}%
 \contentsline {subsection}{\numberline {2.2.8}Còi SFM-27}{15}{subsection.2.2.8}%
 \contentsline {subsubsection}{\numberline {a}Giới thiệu nhanh}{15}{subsubsection.2.2.8.1}%
 \contentsline {subsubsection}{\numberline {b}Chức năng \& Ứng dụng}{15}{subsubsection.2.2.8.2}%

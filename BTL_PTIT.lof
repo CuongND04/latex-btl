@@ -1,9 +1,9 @@
 \babel@toc {nil}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Block diagram của hệ thống}}{7}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Block diagram của hệ thống}}{8}{figure.caption.7}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Bo mạch ESP32 DevKit V1}}{8}{figure.caption.8}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Cảm biến khí MQ-135}}{9}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Cảm biến khí MQ-135}}{10}{figure.caption.9}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Sơ đồ chân và giao tiếp module cảm biến khí}}{10}{figure.caption.10}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Quạt tản nhiệt mini 5V kích thước 4x4}}{11}{figure.caption.11}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Module LCD I2C 16×2 PCF8574}}{12}{figure.caption.12}%
